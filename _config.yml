@@ -7,7 +7,7 @@ title: 蔽芾棠
 subtitle:
 description:
 keywords:
-author: John Doe
+author: Bifeitang
 language:
 timezone:
 
@@ -78,4 +78,6 @@ theme: simple
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/bifeitang/bifeitang.github.io
+  branch: master
