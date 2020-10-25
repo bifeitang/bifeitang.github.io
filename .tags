@@ -1,0 +1,1189 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Quick Start	/Users/sunshine/bifeitang.github.io/source/_posts/hello-world.md	/^## Quick Start$/;"	function	line:6
+Create a new post	/Users/sunshine/bifeitang.github.io/source/_posts/hello-world.md	/^### Create a new post$/;"	function	line:8
+Run server	/Users/sunshine/bifeitang.github.io/source/_posts/hello-world.md	/^### Run server$/;"	function	line:16
+Generate static files	/Users/sunshine/bifeitang.github.io/source/_posts/hello-world.md	/^### Generate static files$/;"	function	line:24
+Deploy to remote sites	/Users/sunshine/bifeitang.github.io/source/_posts/hello-world.md	/^### Deploy to remote sites$/;"	function	line:32
+0.3.2 (2017-6-15)	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/CHANGELOG.md	/^#### 0.3.2 (2017-6-15)$/;"	function	line:1
+Chores	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/CHANGELOG.md	/^##### Chores$/;"	function	line:3
+0.3.1 (2017-2-24)	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/CHANGELOG.md	/^#### 0.3.1 (2017-2-24)$/;"	function	line:8
+Chores	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/CHANGELOG.md	/^##### Chores$/;"	function	line:10
+Bug Fixes	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/CHANGELOG.md	/^##### Bug Fixes$/;"	function	line:14
+0.3.0 (2017-2-24)	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/CHANGELOG.md	/^## 0.3.0 (2017-2-24)$/;"	function	line:18
+node-sass	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/CHANGELOG.md	/^### node-sass$/;"	function	line:22
+packages	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/CHANGELOG.md	/^### packages$/;"	function	line:25
+test	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/CHANGELOG.md	/^### test$/;"	function	line:29
+0.2.0 (2015-9-28)	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/CHANGELOG.md	/^## 0.2.0 (2015-9-28)$/;"	function	line:35
+Install	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/README.md	/^## Install$/;"	function	line:10
+Config	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/README.md	/^## Config$/;"	function	line:15
+_config.yml	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/README.md	/^### _config.yml$/;"	function	line:20
+Inheritance	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/README.md	/^### Inheritance$/;"	function	line:28
+♥︎	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/README.md	/^## ♥︎$/;"	function	line:37
+_from	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^  "_from": "hexo-renderer-sass",$/;"	function	line:2
+_id	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^  "_id": "hexo-renderer-sass@0.3.2",$/;"	function	line:3
+_inBundle	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^  "_inBundle": false,$/;"	function	line:4
+_integrity	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^  "_integrity": "sha512-0TFXrqxQftLLtmANwQJ3yS97PJa3AaAjSN4cDS2rRXM0yvnZIB9i1pDbFdZi9QusNnVAUMxsLjrFMiz\/M5v0Xg==",$/;"	function	line:5
+_location	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^  "_location": "\/hexo-renderer-sass",$/;"	function	line:6
+_phantomChildren	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^  "_phantomChildren": {},$/;"	function	line:7
+_requested	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^  "_requested": {$/;"	function	line:8
+type	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^    "type": "tag",$/;"	function	line:9
+registry	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^    "registry": true,$/;"	function	line:10
+raw	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^    "raw": "hexo-renderer-sass",$/;"	function	line:11
+name	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^    "name": "hexo-renderer-sass",$/;"	function	line:12
+escapedName	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^    "escapedName": "hexo-renderer-sass",$/;"	function	line:13
+rawSpec	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^    "rawSpec": "",$/;"	function	line:14
+saveSpec	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^    "saveSpec": null,$/;"	function	line:15
+fetchSpec	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^    "fetchSpec": "latest"$/;"	function	line:16
+_requiredBy	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^  "_requiredBy": [$/;"	function	line:18
+_resolved	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^  "_resolved": "https:\/\/registry.npmjs.org\/hexo-renderer-sass\/-\/hexo-renderer-sass-0.3.2.tgz",$/;"	function	line:22
+_shasum	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^  "_shasum": "d93106a788d4090a41890c039adbae40c7c89382",$/;"	function	line:23
+_spec	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^  "_spec": "hexo-renderer-sass",$/;"	function	line:24
+_where	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^  "_where": "\/Users\/sunshine\/bifeitang.github.io",$/;"	function	line:25
+author	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^  "author": {$/;"	function	line:26
+name	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^    "name": "Kyle Smith",$/;"	function	line:27
+email	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^    "email": "knksmith57@gmail.com"$/;"	function	line:28
+bugs	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^  "bugs": {$/;"	function	line:30
+url	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^    "url": "https:\/\/github.com\/knksmith57\/hexo-renderer-sass\/issues"$/;"	function	line:31
+bundleDependencies	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^  "bundleDependencies": false,$/;"	function	line:33
+dependencies	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^  "dependencies": {$/;"	function	line:34
+node-sass	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^    "node-sass": "^4.5.3"$/;"	function	line:35
+deprecated	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^  "deprecated": false,$/;"	function	line:37
+description	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^  "description": "Sass renderer plugin for Hexo",$/;"	function	line:38
+devDependencies	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^  "devDependencies": {$/;"	function	line:39
+chai	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^    "chai": "^3.5.0",$/;"	function	line:40
+istanbul	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^    "istanbul": "^0.4.5",$/;"	function	line:41
+mocha	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^    "mocha": "^3.2.0",$/;"	function	line:42
+standard	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^    "standard": "^8.6.0"$/;"	function	line:43
+engines	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^  "engines": {$/;"	function	line:45
+node	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^    "node": ">= 4"$/;"	function	line:46
+homepage	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^  "homepage": "https:\/\/github.com\/knksmith57\/hexo-renderer-sass#readme",$/;"	function	line:48
+keywords	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^  "keywords": [$/;"	function	line:49
+license	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^  "license": "MIT",$/;"	function	line:55
+main	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^  "main": "index",$/;"	function	line:56
+name	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^  "name": "hexo-renderer-sass",$/;"	function	line:57
+peerDependencies	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^  "peerDependencies": {$/;"	function	line:58
+hexo	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^    "hexo": ">= 1.0.0"$/;"	function	line:59
+repository	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^  "repository": {$/;"	function	line:61
+type	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^    "type": "git",$/;"	function	line:62
+url	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^    "url": "git:\/\/github.com\/knksmith57\/hexo-renderer-sass.git"$/;"	function	line:63
+scripts	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^  "scripts": {$/;"	function	line:65
+lint	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^    "lint": "standard",$/;"	function	line:66
+test	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^    "test": "mocha test\/index.js",$/;"	function	line:67
+test-cov	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^    "test-cov": "istanbul cover --print both _mocha -- test\/index.js"$/;"	function	line:68
+version	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-sass/package.json	/^  "version": "0.3.2"$/;"	function	line:70
+renderer	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/index.js	/^var renderer = require('.\/lib\/renderer');$/;"	variable	line:4
+hexo-renderer-stylus	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/README.md	/^# hexo-renderer-stylus$/;"	function	line:1
+Install	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/README.md	/^## Install$/;"	function	line:7
+Options	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/README.md	/^## Options$/;"	function	line:16
+_from	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^  "_from": "hexo-renderer-stylus@0.3.3",$/;"	function	line:2
+_id	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^  "_id": "hexo-renderer-stylus@0.3.3",$/;"	function	line:3
+_inBundle	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^  "_inBundle": false,$/;"	function	line:4
+_integrity	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^  "_integrity": "sha1-xU6ifh\/Y48ipp6hM+6itNUEiyn8=",$/;"	function	line:5
+_location	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^  "_location": "\/hexo-renderer-stylus",$/;"	function	line:6
+_phantomChildren	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^  "_phantomChildren": {},$/;"	function	line:7
+_requested	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^  "_requested": {$/;"	function	line:8
+type	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^    "type": "version",$/;"	function	line:9
+registry	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^    "registry": true,$/;"	function	line:10
+raw	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^    "raw": "hexo-renderer-stylus@0.3.3",$/;"	function	line:11
+name	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^    "name": "hexo-renderer-stylus",$/;"	function	line:12
+escapedName	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^    "escapedName": "hexo-renderer-stylus",$/;"	function	line:13
+rawSpec	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^    "rawSpec": "0.3.3",$/;"	function	line:14
+saveSpec	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^    "saveSpec": null,$/;"	function	line:15
+fetchSpec	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^    "fetchSpec": "0.3.3"$/;"	function	line:16
+_requiredBy	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^  "_requiredBy": [$/;"	function	line:18
+_resolved	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^  "_resolved": "https:\/\/registry.npmjs.org\/hexo-renderer-stylus\/-\/hexo-renderer-stylus-0.3.3.tgz",$/;"	function	line:21
+_shasum	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^  "_shasum": "c54ea27e1fd8e3c8a9a7a84cfba8ad354122ca7f",$/;"	function	line:22
+_spec	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^  "_spec": "hexo-renderer-stylus@0.3.3",$/;"	function	line:23
+_where	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^  "_where": "\/Users\/sunshine\/bifeitang.github.io",$/;"	function	line:24
+author	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^  "author": {$/;"	function	line:25
+name	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^    "name": "Tommy Chen",$/;"	function	line:26
+email	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^    "email": "tommy351@gmail.com",$/;"	function	line:27
+url	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^    "url": "http:\/\/zespia.tw"$/;"	function	line:28
+bugs	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^  "bugs": {$/;"	function	line:30
+url	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^    "url": "https:\/\/github.com\/hexojs\/hexo-renderer-stylus\/issues"$/;"	function	line:31
+bundleDependencies	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^  "bundleDependencies": false,$/;"	function	line:33
+dependencies	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^  "dependencies": {$/;"	function	line:34
+nib	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^    "nib": "^1.1.2",$/;"	function	line:35
+stylus	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^    "stylus": "^0.54.5"$/;"	function	line:36
+deprecated	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^  "deprecated": false,$/;"	function	line:38
+description	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^  "description": "Stylus renderer plugin for Hexo",$/;"	function	line:39
+devDependencies	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^  "devDependencies": {$/;"	function	line:40
+chai	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^    "chai": "^3.5.0",$/;"	function	line:41
+chai-as-promised	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^    "chai-as-promised": "^6.0.0",$/;"	function	line:42
+eslint	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^    "eslint": "^3.11.1",$/;"	function	line:43
+eslint-config-hexo	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^    "eslint-config-hexo": "^1.0.3",$/;"	function	line:44
+istanbul	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^    "istanbul": "^0.4.5",$/;"	function	line:45
+jscs	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^    "jscs": "^3.0.7",$/;"	function	line:46
+jscs-preset-hexo	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^    "jscs-preset-hexo": "^1.0.1",$/;"	function	line:47
+mocha	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^    "mocha": "^3.2.0"$/;"	function	line:48
+directories	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^  "directories": {$/;"	function	line:50
+lib	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^    "lib": ".\/lib"$/;"	function	line:51
+homepage	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^  "homepage": "https:\/\/github.com\/hexojs\/hexo-renderer-stylus#readme",$/;"	function	line:53
+keywords	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^  "keywords": [$/;"	function	line:54
+license	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^  "license": "MIT",$/;"	function	line:63
+main	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^  "main": "index",$/;"	function	line:64
+name	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^  "name": "hexo-renderer-stylus",$/;"	function	line:65
+repository	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^  "repository": {$/;"	function	line:66
+type	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^    "type": "git",$/;"	function	line:67
+url	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^    "url": "git+https:\/\/github.com\/hexojs\/hexo-renderer-stylus.git"$/;"	function	line:68
+scripts	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^  "scripts": {$/;"	function	line:70
+eslint	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^    "eslint": "eslint .",$/;"	function	line:71
+jscs	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^    "jscs": "jscs .",$/;"	function	line:72
+test	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^    "test": "mocha test\/index.js",$/;"	function	line:73
+test-cov	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^    "test-cov": "istanbul cover --print both _mocha -- test\/index.js"$/;"	function	line:74
+version	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/package.json	/^  "version": "0.3.3"$/;"	function	line:76
+stylus	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/lib/renderer.js	/^var stylus, nib;$/;"	variable	line:3
+getProperty	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/lib/renderer.js	/^function getProperty(obj, name) {$/;"	function	line:5
+getProperty	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/lib/renderer.js	/^function getProperty(obj, name) {$/;"	function	line:5
+exports	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/lib/renderer.js	/^module.exports = function(data, options, callback) {$/;"	function	line:30
+defineConfig	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/lib/renderer.js	/^  function defineConfig(style) {$/;"	function	line:40
+module.exports.defineConfig	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/lib/renderer.js	/^  function defineConfig(style) {$/;"	function	line:40
+module.exports	/Users/sunshine/bifeitang.github.io/node_modules/hexo-renderer-stylus/lib/renderer.js	/^}$/;"	function	line:28
+isExtendable	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/index.js	/^module.exports = function isExtendable(val) {$/;"	function	line:10
+module.exports	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/index.js	/^'use strict';$/;"	function	line:8
+isExtendable	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/index.js	/^module.exports = function isExtendable(val) {$/;"	function	line:10
+is-extendable [![NPM version](https://badge.fury.io/js/is-extendable.svg)](http://badge.fury.io/js/is-extendable)	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/README.md	/^# is-extendable [![NPM version](https:\/\/badge.fury.io\/js\/is-extendable.svg)](http:\/\/badge.fury.io\/js\/is-extendable)$/;"	function	line:1
+Install	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/README.md	/^## Install$/;"	function	line:5
+Usage	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/README.md	/^## Usage$/;"	function	line:13
+Notes	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/README.md	/^## Notes$/;"	function	line:28
+Related projects	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/README.md	/^## Related projects$/;"	function	line:37
+Running tests	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/README.md	/^## Running tests$/;"	function	line:46
+Contributing	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/README.md	/^## Contributing$/;"	function	line:54
+Author	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/README.md	/^## Author$/;"	function	line:58
+License	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/README.md	/^## License$/;"	function	line:65
+_from	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^  "_from": "is-extendable@^0.1.1",$/;"	function	line:2
+_id	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^  "_id": "is-extendable@0.1.1",$/;"	function	line:3
+_inBundle	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^  "_inBundle": false,$/;"	function	line:4
+_integrity	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^  "_integrity": "sha1-YrEQ4omkcUGOPsNqYX1HLjAd\/Ik=",$/;"	function	line:5
+_location	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^  "_location": "\/is-extendable",$/;"	function	line:6
+_phantomChildren	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^  "_phantomChildren": {},$/;"	function	line:7
+_requested	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^  "_requested": {$/;"	function	line:8
+type	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^    "type": "range",$/;"	function	line:9
+registry	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^    "registry": true,$/;"	function	line:10
+raw	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^    "raw": "is-extendable@^0.1.1",$/;"	function	line:11
+name	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^    "name": "is-extendable",$/;"	function	line:12
+escapedName	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^    "escapedName": "is-extendable",$/;"	function	line:13
+rawSpec	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^    "rawSpec": "^0.1.1",$/;"	function	line:14
+saveSpec	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^    "saveSpec": null,$/;"	function	line:15
+fetchSpec	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^    "fetchSpec": "^0.1.1"$/;"	function	line:16
+_requiredBy	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^  "_requiredBy": [$/;"	function	line:18
+_resolved	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^  "_resolved": "https:\/\/registry.npmjs.org\/is-extendable\/-\/is-extendable-0.1.1.tgz",$/;"	function	line:31
+_shasum	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^  "_shasum": "62b110e289a471418e3ec36a617d472e301dfc89",$/;"	function	line:32
+_spec	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^  "_spec": "is-extendable@^0.1.1",$/;"	function	line:33
+_where	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^  "_where": "\/Users\/sunshine\/bifeitang.github.io\/node_modules\/object.omit",$/;"	function	line:34
+author	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^  "author": {$/;"	function	line:35
+name	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^    "name": "Jon Schlinkert",$/;"	function	line:36
+url	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^    "url": "https:\/\/github.com\/jonschlinkert"$/;"	function	line:37
+bugs	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^  "bugs": {$/;"	function	line:39
+url	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^    "url": "https:\/\/github.com\/jonschlinkert\/is-extendable\/issues"$/;"	function	line:40
+bundleDependencies	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^  "bundleDependencies": false,$/;"	function	line:42
+deprecated	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^  "deprecated": false,$/;"	function	line:43
+description	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^  "description": "Returns true if a value is any of the object types: array, regexp, plain object, function or date. This is useful for determining if a value can be extended, e.g. \\"can the value have keys?\\"",$/;"	function	line:44
+devDependencies	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^  "devDependencies": {$/;"	function	line:45
+mocha	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^    "mocha": "*"$/;"	function	line:46
+engines	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^  "engines": {$/;"	function	line:48
+node	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^    "node": ">=0.10.0"$/;"	function	line:49
+files	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^  "files": [$/;"	function	line:51
+homepage	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^  "homepage": "https:\/\/github.com\/jonschlinkert\/is-extendable",$/;"	function	line:54
+keywords	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^  "keywords": [$/;"	function	line:55
+license	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^  "license": "MIT",$/;"	function	line:68
+main	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^  "main": "index.js",$/;"	function	line:69
+name	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^  "name": "is-extendable",$/;"	function	line:70
+repository	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^  "repository": {$/;"	function	line:71
+type	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^    "type": "git",$/;"	function	line:72
+url	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^    "url": "git+https:\/\/github.com\/jonschlinkert\/is-extendable.git"$/;"	function	line:73
+scripts	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^  "scripts": {$/;"	function	line:75
+test	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^    "test": "mocha"$/;"	function	line:76
+verbiage	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^  "verbiage": {$/;"	function	line:78
+related	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^    "related": {$/;"	function	line:79
+list	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^      "list": [$/;"	function	line:80
+version	/Users/sunshine/bifeitang.github.io/node_modules/is-extendable/package.json	/^  "version": "0.1.1"$/;"	function	line:91
+assert	/Users/sunshine/bifeitang.github.io/node_modules/striptags/test/striptags-test.js	/^var assert = require('assert'),$/;"	variable	line:3
+describe	/Users/sunshine/bifeitang.github.io/node_modules/striptags/test/striptags-test.js	/^describe('striptags', function() {$/;"	function	line:7
+it	/Users/sunshine/bifeitang.github.io/node_modules/striptags/test/striptags-test.js	/^    it('should not modify plain text', function() {$/;"	function	line:8
+it	/Users/sunshine/bifeitang.github.io/node_modules/striptags/test/striptags-test.js	/^    it('should remove simple HTML tags', function() {$/;"	function	line:14
+it	/Users/sunshine/bifeitang.github.io/node_modules/striptags/test/striptags-test.js	/^    it('should leave HTML tags if specified', function() {$/;"	function	line:21
+it	/Users/sunshine/bifeitang.github.io/node_modules/striptags/test/striptags-test.js	/^    it('should leave attributes when allowing HTML', function() {$/;"	function	line:28
+it	/Users/sunshine/bifeitang.github.io/node_modules/striptags/test/striptags-test.js	/^    it('should leave nested HTML tags if specified', function() {$/;"	function	line:35
+it	/Users/sunshine/bifeitang.github.io/node_modules/striptags/test/striptags-test.js	/^    it('should leave outer HTML tags if specified', function() {$/;"	function	line:43
+it	/Users/sunshine/bifeitang.github.io/node_modules/striptags/test/striptags-test.js	/^    it('should remove DOCTYPE declaration', function() {$/;"	function	line:51
+it	/Users/sunshine/bifeitang.github.io/node_modules/striptags/test/striptags-test.js	/^    it('should remove comments', function() {$/;"	function	line:58
+it	/Users/sunshine/bifeitang.github.io/node_modules/striptags/test/striptags-test.js	/^    it('should strip <> within quotes', function() {$/;"	function	line:65
+it	/Users/sunshine/bifeitang.github.io/node_modules/striptags/test/striptags-test.js	/^    it('should strip extra < within tags', function() {$/;"	function	line:73
+it	/Users/sunshine/bifeitang.github.io/node_modules/striptags/test/striptags-test.js	/^    it('should strip tags within comments', function() {$/;"	function	line:81
+it	/Users/sunshine/bifeitang.github.io/node_modules/striptags/test/striptags-test.js	/^    it('should strip comment-like tags', function() {$/;"	function	line:88
+it	/Users/sunshine/bifeitang.github.io/node_modules/striptags/test/striptags-test.js	/^    it('should leave normal exclamation points alone', function() {$/;"	function	line:95
+it	/Users/sunshine/bifeitang.github.io/node_modules/striptags/test/striptags-test.js	/^    it('should allow an array parameter for allowable tags', function() {$/;"	function	line:101
+it	/Users/sunshine/bifeitang.github.io/node_modules/striptags/test/striptags-test.js	/^    it('should strip tags when an empty array is provided', function() {$/;"	function	line:108
+it	/Users/sunshine/bifeitang.github.io/node_modules/striptags/test/striptags-test.js	/^    it('should not fail with nested quotes', function() {$/;"	function	line:116
+it	/Users/sunshine/bifeitang.github.io/node_modules/striptags/test/striptags-test.js	/^    it('should strip the tag\\'s properties and attributes', function() {$/;"	function	line:124
+it	/Users/sunshine/bifeitang.github.io/node_modules/striptags/test/striptags-test.js	/^    it('should replace with the tagReplacement parameter', function() {$/;"	function	line:132
+striptags	/Users/sunshine/bifeitang.github.io/node_modules/striptags/striptags.js	/^    function striptags(html, allowableTags, tagReplacement) {$/;"	function	line:25
+switch	/Users/sunshine/bifeitang.github.io/node_modules/striptags/striptags.js	/^            switch (c) {$/;"	function	line:45
+striptags	/Users/sunshine/bifeitang.github.io/node_modules/striptags/striptags.js	/^    function striptags(html, allowableTags, tagReplacement) {$/;"	function	line:25
+consumeCharacter	/Users/sunshine/bifeitang.github.io/node_modules/striptags/striptags.js	/^        function consumeCharacter(c) {$/;"	function	line:185
+consumeCharacter	/Users/sunshine/bifeitang.github.io/node_modules/striptags/striptags.js	/^        function consumeCharacter(c) {$/;"	function	line:185
+flushTagBuffer	/Users/sunshine/bifeitang.github.io/node_modules/striptags/striptags.js	/^        function flushTagBuffer() {$/;"	function	line:193
+switch	/Users/sunshine/bifeitang.github.io/node_modules/striptags/striptags.js	/^                switch (c) {$/;"	function	line:202
+flushTagBuffer	/Users/sunshine/bifeitang.github.io/node_modules/striptags/striptags.js	/^        function flushTagBuffer() {$/;"	function	line:193
+parseAllowableTags	/Users/sunshine/bifeitang.github.io/node_modules/striptags/striptags.js	/^    function parseAllowableTags(allowableTags) {$/;"	function	line:246
+parseAllowableTags	/Users/sunshine/bifeitang.github.io/node_modules/striptags/striptags.js	/^    function parseAllowableTags(allowableTags) {$/;"	function	line:246
+name	/Users/sunshine/bifeitang.github.io/node_modules/striptags/bower.json	/^  "name": "striptags",$/;"	function	line:2
+description	/Users/sunshine/bifeitang.github.io/node_modules/striptags/bower.json	/^  "description": "PHP strip_tags in Node.js",$/;"	function	line:3
+main	/Users/sunshine/bifeitang.github.io/node_modules/striptags/bower.json	/^  "main": "striptags.js",$/;"	function	line:4
+authors	/Users/sunshine/bifeitang.github.io/node_modules/striptags/bower.json	/^  "authors": [$/;"	function	line:5
+license	/Users/sunshine/bifeitang.github.io/node_modules/striptags/bower.json	/^  "license": "MIT",$/;"	function	line:8
+keywords	/Users/sunshine/bifeitang.github.io/node_modules/striptags/bower.json	/^  "keywords": [$/;"	function	line:9
+homepage	/Users/sunshine/bifeitang.github.io/node_modules/striptags/bower.json	/^  "homepage": "https:\/\/github.com\/ericnorris\/striptags",$/;"	function	line:16
+ignore	/Users/sunshine/bifeitang.github.io/node_modules/striptags/bower.json	/^  "ignore": [$/;"	function	line:17
+striptags [![Build Status](https://travis-ci.org/ericnorris/striptags.svg)](https://travis-ci.org/ericnorris/striptags)	/Users/sunshine/bifeitang.github.io/node_modules/striptags/README.md	/^# striptags [![Build Status](https:\/\/travis-ci.org\/ericnorris\/striptags.svg)](https:\/\/travis-ci.org\/ericnorris\/striptags)$/;"	function	line:1
+Features	/Users/sunshine/bifeitang.github.io/node_modules/striptags/README.md	/^## Features$/;"	function	line:4
+Installing	/Users/sunshine/bifeitang.github.io/node_modules/striptags/README.md	/^## Installing$/;"	function	line:10
+Usage	/Users/sunshine/bifeitang.github.io/node_modules/striptags/README.md	/^## Usage$/;"	function	line:15
+Example	/Users/sunshine/bifeitang.github.io/node_modules/striptags/README.md	/^### Example$/;"	function	line:20
+Tests	/Users/sunshine/bifeitang.github.io/node_modules/striptags/README.md	/^## Tests$/;"	function	line:56
+Differences between PHP strip_tags and striptags	/Users/sunshine/bifeitang.github.io/node_modules/striptags/README.md	/^## Differences between PHP strip_tags and striptags$/;"	function	line:67
+Doesn't use regular expressions	/Users/sunshine/bifeitang.github.io/node_modules/striptags/README.md	/^## Doesn't use regular expressions$/;"	function	line:72
+_from	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^  "_from": "striptags@^2.1.1",$/;"	function	line:2
+_id	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^  "_id": "striptags@2.2.1",$/;"	function	line:3
+_inBundle	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^  "_inBundle": false,$/;"	function	line:4
+_integrity	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^  "_integrity": "sha1-TEULcI1BuL85zyTEn\/I0\/Gqr\/TI=",$/;"	function	line:5
+_location	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^  "_location": "\/striptags",$/;"	function	line:6
+_phantomChildren	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^  "_phantomChildren": {},$/;"	function	line:7
+_requested	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^  "_requested": {$/;"	function	line:8
+type	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^    "type": "range",$/;"	function	line:9
+registry	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^    "registry": true,$/;"	function	line:10
+raw	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^    "raw": "striptags@^2.1.1",$/;"	function	line:11
+name	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^    "name": "striptags",$/;"	function	line:12
+escapedName	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^    "escapedName": "striptags",$/;"	function	line:13
+rawSpec	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^    "rawSpec": "^2.1.1",$/;"	function	line:14
+saveSpec	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^    "saveSpec": null,$/;"	function	line:15
+fetchSpec	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^    "fetchSpec": "^2.1.1"$/;"	function	line:16
+_requiredBy	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^  "_requiredBy": [$/;"	function	line:18
+_resolved	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^  "_resolved": "https:\/\/registry.npmjs.org\/striptags\/-\/striptags-2.2.1.tgz",$/;"	function	line:21
+_shasum	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^  "_shasum": "4c450b708d41b8bf39cf24c49ff234fc6aabfd32",$/;"	function	line:22
+_spec	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^  "_spec": "striptags@^2.1.1",$/;"	function	line:23
+_where	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^  "_where": "\/Users\/sunshine\/bifeitang.github.io\/node_modules\/hexo-util",$/;"	function	line:24
+author	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^  "author": {$/;"	function	line:25
+name	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^    "name": "Eric Norris",$/;"	function	line:26
+url	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^    "url": "https:\/\/github.com\/ericnorris"$/;"	function	line:27
+bugs	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^  "bugs": {$/;"	function	line:29
+url	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^    "url": "https:\/\/github.com\/ericnorris\/striptags\/issues"$/;"	function	line:30
+bundleDependencies	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^  "bundleDependencies": false,$/;"	function	line:32
+config	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^  "config": {$/;"	function	line:33
+blanket	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^    "blanket": {$/;"	function	line:34
+pattern	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^      "pattern": "src\/",$/;"	function	line:35
+data-cover-reporter-options	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^      "data-cover-reporter-options": {$/;"	function	line:36
+shortnames	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^        "shortnames": true$/;"	function	line:37
+deprecated	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^  "deprecated": false,$/;"	function	line:41
+description	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^  "description": "PHP strip_tags in Node.js",$/;"	function	line:42
+devDependencies	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^  "devDependencies": {$/;"	function	line:43
+blanket	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^    "blanket": "~1.1.6",$/;"	function	line:44
+mocha	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^    "mocha": "~2.1.0"$/;"	function	line:45
+homepage	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^  "homepage": "https:\/\/github.com\/ericnorris\/striptags",$/;"	function	line:47
+jshintConfig	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^  "jshintConfig": {$/;"	function	line:48
+node	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^    "node": true$/;"	function	line:49
+keywords	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^  "keywords": [$/;"	function	line:51
+license	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^  "license": "MIT",$/;"	function	line:58
+main	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^  "main": "striptags.js",$/;"	function	line:59
+name	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^  "name": "striptags",$/;"	function	line:60
+repository	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^  "repository": {$/;"	function	line:61
+type	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^    "type": "git",$/;"	function	line:62
+url	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^    "url": "git+https:\/\/github.com\/ericnorris\/striptags.git"$/;"	function	line:63
+scripts	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^  "scripts": {$/;"	function	line:65
+test	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^    "test": "node .\/node_modules\/mocha\/bin\/mocha",$/;"	function	line:66
+test-coverage	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^    "test-coverage": "node .\/node_modules\/mocha\/bin\/mocha --require blanket -R html-cov > coverage.html"$/;"	function	line:67
+version	/Users/sunshine/bifeitang.github.io/node_modules/striptags/package.json	/^  "version": "2.2.1"$/;"	function	line:69
+language	/Users/sunshine/bifeitang.github.io/node_modules/striptags/.travis.yml	/^language: node_js$/;"	function	line:1
+node_js	/Users/sunshine/bifeitang.github.io/node_modules/striptags/.travis.yml	/^node_js:$/;"	function	line:2
+sudo	/Users/sunshine/bifeitang.github.io/node_modules/striptags/.travis.yml	/^sudo: false$/;"	function	line:7
+it	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/test/index.js	/^  it('handles "[5 + 3 + 10]"', function () {$/;"	function	line:7
+it	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/test/index.js	/^  it('handles "Math.random("', function () {$/;"	function	line:19
+it	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/test/index.js	/^  it('handles "this.myVar"', function () {$/;"	function	line:25
+it	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/test/index.js	/^  it('handles "(function () { while (true); return 10; }())"', function () {$/;"	function	line:28
+assert	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/test/index.js	/^    assert(constaninople.isConstant('(function () { while (true); return 10; }())') === false)$/;"	function	line:29
+it	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/test/index.js	/^  it('handles "[5 + 3 + 10]"', function () {$/;"	function	line:35
+it	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/test/index.js	/^  it('handles "Math.random("', function () {$/;"	function	line:52
+it	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/test/index.js	/^  it('handles "(function () { while (true); return 10; }())"', function () {$/;"	function	line:63
+assert	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/test/index.js	/^    assert(false, '(function () { while (true); return 10; }()) should result in an error')$/;"	function	line:69
+walk	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^var walk = require('acorn\/dist\/walk');$/;"	variable	line:4
+lastSRC	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^var lastSRC = '(null)';$/;"	variable	line:6
+lastRes	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^var lastRes = true;$/;"	variable	line:7
+lastConstants	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^var lastConstants = undefined;$/;"	variable	line:8
+STATEMENT_WHITE_LIST.EmptyStatement	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^var STATEMENT_WHITE_LIST = {$/;"	property	line:10
+STATEMENT_WHITE_LIST.ExpressionStatement	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^  'EmptyStatement': true,$/;"	property	line:11
+EXPRESSION_WHITE_LIST.ParenthesizedExpression	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^var EXPRESSION_WHITE_LIST = {$/;"	property	line:14
+EXPRESSION_WHITE_LIST.ArrayExpression	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^  'ParenthesizedExpression': true,$/;"	property	line:15
+EXPRESSION_WHITE_LIST.ObjectExpression	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^  'ArrayExpression': true,$/;"	property	line:16
+EXPRESSION_WHITE_LIST.SequenceExpression	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^  'ObjectExpression': true,$/;"	property	line:17
+EXPRESSION_WHITE_LIST.TemplateLiteral	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^  'SequenceExpression': true,$/;"	property	line:18
+EXPRESSION_WHITE_LIST.UnaryExpression	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^  'TemplateLiteral': true,$/;"	property	line:19
+EXPRESSION_WHITE_LIST.BinaryExpression	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^  'UnaryExpression': true,$/;"	property	line:20
+EXPRESSION_WHITE_LIST.LogicalExpression	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^  'BinaryExpression': true,$/;"	property	line:21
+EXPRESSION_WHITE_LIST.ConditionalExpression	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^  'LogicalExpression': true,$/;"	property	line:22
+EXPRESSION_WHITE_LIST.Identifier	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^  'ConditionalExpression': true,$/;"	property	line:23
+EXPRESSION_WHITE_LIST.Literal	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^  'Identifier': true,$/;"	property	line:24
+EXPRESSION_WHITE_LIST.ComprehensionExpression	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^  'Literal': true,$/;"	property	line:25
+EXPRESSION_WHITE_LIST.TaggedTemplateExpression	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^  'ComprehensionExpression': true,$/;"	property	line:26
+EXPRESSION_WHITE_LIST.MemberExpression	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^  'TaggedTemplateExpression': true,$/;"	property	line:27
+EXPRESSION_WHITE_LIST.CallExpression	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^  'MemberExpression': true,$/;"	property	line:28
+EXPRESSION_WHITE_LIST.NewExpression	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^  'CallExpression': true,$/;"	property	line:29
+isConstant	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^function isConstant(src, constants) {$/;"	function	line:33
+Statement	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^    Statement: function (node) {$/;"	function	line:52
+Expression	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^    Expression: function (node) {$/;"	function	line:59
+MemberExpression	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^    MemberExpression: function (node) {$/;"	function	line:66
+Identifier	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^    Identifier: function (node) {$/;"	function	line:72
+isConstant	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^function isConstant(src, constants) {$/;"	function	line:33
+toConstant	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^function toConstant(src, constants) {$/;"	function	line:85
+toConstant	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^function toConstant(src, constants) {$/;"	function	line:85
+isExpression	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^function isExpression(src) {$/;"	function	line:92
+eval	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^    eval('throw "STOP"; (function () { return (' + src + '); })()');$/;"	function	line:94
+catch	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^  catch (err) {$/;"	function	line:97
+isExpression	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/index.js	/^function isExpression(src) {$/;"	function	line:92
+constantinople	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/README.md	/^# constantinople$/;"	function	line:1
+Installation	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/README.md	/^## Installation$/;"	function	line:9
+Usage	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/README.md	/^## Usage$/;"	function	line:13
+API	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/README.md	/^## API$/;"	function	line:26
+isConstant(src, [constants])	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/README.md	/^### isConstant(src, [constants])$/;"	function	line:28
+toConstant(src, [constants])	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/README.md	/^### toConstant(src, [constants])$/;"	function	line:34
+License	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/README.md	/^## License$/;"	function	line:40
+_from	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^  "_from": "constantinople@~3.0.1",$/;"	function	line:2
+_id	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^  "_id": "constantinople@3.0.2",$/;"	function	line:3
+_inBundle	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^  "_inBundle": false,$/;"	function	line:4
+_integrity	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^  "_integrity": "sha1-S5RdmTeQe82Y7ldRIsOBdRZUQUE=",$/;"	function	line:5
+_location	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^  "_location": "\/constantinople",$/;"	function	line:6
+_phantomChildren	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^  "_phantomChildren": {},$/;"	function	line:7
+_requested	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^  "_requested": {$/;"	function	line:8
+type	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^    "type": "range",$/;"	function	line:9
+registry	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^    "registry": true,$/;"	function	line:10
+raw	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^    "raw": "constantinople@~3.0.1",$/;"	function	line:11
+name	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^    "name": "constantinople",$/;"	function	line:12
+escapedName	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^    "escapedName": "constantinople",$/;"	function	line:13
+rawSpec	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^    "rawSpec": "~3.0.1",$/;"	function	line:14
+saveSpec	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^    "saveSpec": null,$/;"	function	line:15
+fetchSpec	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^    "fetchSpec": "~3.0.1"$/;"	function	line:16
+_requiredBy	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^  "_requiredBy": [$/;"	function	line:18
+_resolved	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^  "_resolved": "https:\/\/registry.npmjs.org\/constantinople\/-\/constantinople-3.0.2.tgz",$/;"	function	line:24
+_shasum	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^  "_shasum": "4b945d9937907bcd98ee575122c3817516544141",$/;"	function	line:25
+_spec	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^  "_spec": "constantinople@~3.0.1",$/;"	function	line:26
+_where	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^  "_where": "\/Users\/sunshine\/bifeitang.github.io\/node_modules\/jade",$/;"	function	line:27
+author	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^  "author": {$/;"	function	line:28
+name	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^    "name": "ForbesLindesay"$/;"	function	line:29
+bugs	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^  "bugs": {$/;"	function	line:31
+url	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^    "url": "https:\/\/github.com\/ForbesLindesay\/constantinople\/issues"$/;"	function	line:32
+bundleDependencies	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^  "bundleDependencies": false,$/;"	function	line:34
+dependencies	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^  "dependencies": {$/;"	function	line:35
+acorn	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^    "acorn": "^2.1.0"$/;"	function	line:36
+deprecated	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^  "deprecated": "Please update to at least constantinople 3.1.1",$/;"	function	line:38
+description	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^  "description": "Determine whether a JavaScript expression evaluates to a constant (using UglifyJS)",$/;"	function	line:39
+devDependencies	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^  "devDependencies": {$/;"	function	line:40
+mocha	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^    "mocha": "*"$/;"	function	line:41
+homepage	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^  "homepage": "https:\/\/github.com\/ForbesLindesay\/constantinople#readme",$/;"	function	line:43
+keywords	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^  "keywords": [],$/;"	function	line:44
+license	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^  "license": "MIT",$/;"	function	line:45
+name	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^  "name": "constantinople",$/;"	function	line:46
+repository	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^  "repository": {$/;"	function	line:47
+type	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^    "type": "git",$/;"	function	line:48
+url	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^    "url": "git+https:\/\/github.com\/ForbesLindesay\/constantinople.git"$/;"	function	line:49
+scripts	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^  "scripts": {$/;"	function	line:51
+test	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^    "test": "mocha -R spec"$/;"	function	line:52
+version	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/package.json	/^  "version": "3.0.2"$/;"	function	line:54
+language	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/.travis.yml	/^language: node_js$/;"	function	line:1
+node_js	/Users/sunshine/bifeitang.github.io/node_modules/constantinople/.travis.yml	/^node_js:$/;"	function	line:2
+fs	/Users/sunshine/bifeitang.github.io/node_modules/babylon/bin/babylon.js	/^var fs      = require("fs");$/;"	variable	line:5
+filename	/Users/sunshine/bifeitang.github.io/node_modules/babylon/bin/babylon.js	/^var filename = process.argv[2];$/;"	variable	line:7
+file	/Users/sunshine/bifeitang.github.io/node_modules/babylon/bin/babylon.js	/^var file = fs.readFileSync(filename, "utf8");$/;"	variable	line:13
+ast	/Users/sunshine/bifeitang.github.io/node_modules/babylon/bin/babylon.js	/^var ast  = babylon.parse(file);$/;"	variable	line:14
+search	/Users/sunshine/bifeitang.github.io/node_modules/babylon/bin/generate-identifier-regex.js	/^function search(arr, ch, starting) {$/;"	function	line:16
+search	/Users/sunshine/bifeitang.github.io/node_modules/babylon/bin/generate-identifier-regex.js	/^function search(arr, ch, starting) {$/;"	function	line:16
+pad	/Users/sunshine/bifeitang.github.io/node_modules/babylon/bin/generate-identifier-regex.js	/^function pad(str, width) {$/;"	function	line:23
+pad	/Users/sunshine/bifeitang.github.io/node_modules/babylon/bin/generate-identifier-regex.js	/^function pad(str, width) {$/;"	function	line:23
+esc	/Users/sunshine/bifeitang.github.io/node_modules/babylon/bin/generate-identifier-regex.js	/^function esc(code) {$/;"	function	line:28
+esc	/Users/sunshine/bifeitang.github.io/node_modules/babylon/bin/generate-identifier-regex.js	/^function esc(code) {$/;"	function	line:28
+generate	/Users/sunshine/bifeitang.github.io/node_modules/babylon/bin/generate-identifier-regex.js	/^function generate(chars) {$/;"	function	line:34
+generate	/Users/sunshine/bifeitang.github.io/node_modules/babylon/bin/generate-identifier-regex.js	/^function generate(chars) {$/;"	function	line:34
+Changelog	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^# Changelog$/;"	function	line:1
+6.17.4 (2017-06-18)	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^## 6.17.4 (2017-06-18)$/;"	function	line:18
+6.17.3 (2017-06-09)	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^## 6.17.3 (2017-06-09)$/;"	function	line:23
+6.17.2 (2017-05-31)	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^## 6.17.2 (2017-05-31)$/;"	function	line:28
+6.17.1 (2017-05-10)	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^## 6.17.1 (2017-05-10)$/;"	function	line:35
+6.17.0 (2017-04-20)	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^## 6.17.0 (2017-04-20)$/;"	function	line:45
+6.16.0 (2017-02-23)	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^## 6.16.0 (2017-02-23)$/;"	function	line:54
+:rocket: New Feature	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### :rocket: New Feature$/;"	function	line:56
+:eyeglasses: Spec Compliancy	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### :eyeglasses: Spec Compliancy$/;"	function	line:109
+:nail_care: Polish	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### :nail_care: Polish$/;"	function	line:157
+:bug: Bug Fix	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### :bug: Bug Fix$/;"	function	line:161
+:house: Internal	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### :house: Internal$/;"	function	line:180
+:memo: Documentation	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### :memo: Documentation$/;"	function	line:202
+6.15.0 (2017-01-10)	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^## 6.15.0 (2017-01-10)$/;"	function	line:212
+:eyeglasses: Spec Compliancy	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### :eyeglasses: Spec Compliancy$/;"	function	line:214
+:bug: Bug Fix	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### :bug: Bug Fix$/;"	function	line:257
+:house: Internal	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### :house: Internal$/;"	function	line:284
+6.14.1 (2016-11-17)	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^## 6.14.1 (2016-11-17)$/;"	function	line:304
+:bug: Bug Fix	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### :bug: Bug Fix$/;"	function	line:306
+6.14.0 (2016-11-16)	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^## 6.14.0 (2016-11-16)$/;"	function	line:318
+:eyeglasses: Spec Compliancy	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### :eyeglasses: Spec Compliancy$/;"	function	line:320
+:bug: Bug Fix	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### :bug: Bug Fix$/;"	function	line:360
+:house: Internal	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### :house: Internal$/;"	function	line:369
+v6.13.1 (2016-10-26)	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^## v6.13.1 (2016-10-26)$/;"	function	line:376
+:nail_care: Polish	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### :nail_care: Polish$/;"	function	line:378
+v6.13.0 (2016-10-21)	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^## v6.13.0 (2016-10-21)$/;"	function	line:398
+:eyeglasses: Spec Compliancy	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### :eyeglasses: Spec Compliancy$/;"	function	line:400
+:bug: Bug Fix	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### :bug: Bug Fix$/;"	function	line:420
+:nail_care: Polish	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### :nail_care: Polish$/;"	function	line:436
+:house: Internal	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### :house: Internal$/;"	function	line:442
+v6.12.0 (2016-10-14)	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^## v6.12.0 (2016-10-14)$/;"	function	line:456
+:eyeglasses: Spec Compliancy	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### :eyeglasses: Spec Compliancy$/;"	function	line:458
+Dynamic Import	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^#### Dynamic Import$/;"	function	line:462
+EmptyTypeAnnotation	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^#### EmptyTypeAnnotation$/;"	function	line:480
+:bug: Bug Fix	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### :bug: Bug Fix$/;"	function	line:488
+:nail_care: Polish	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### :nail_care: Polish$/;"	function	line:524
+:house: Internal	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### :house: Internal$/;"	function	line:533
+v6.11.6 (2016-10-12)	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^## v6.11.6 (2016-10-12)$/;"	function	line:539
+:bug: Bug Fix/Regression	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### :bug: Bug Fix\/Regression$/;"	function	line:541
+v6.11.5 (2016-10-12)	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^## v6.11.5 (2016-10-12)$/;"	function	line:550
+:eyeglasses: Spec Compliancy	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### :eyeglasses: Spec Compliancy$/;"	function	line:552
+:bug: Bug Fix	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### :bug: Bug Fix$/;"	function	line:570
+:nail_care: Polish	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### :nail_care: Polish$/;"	function	line:579
+So in the case of a missing ending curly (`}`)	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^# So in the case of a missing ending curly (`}`)$/;"	function	line:584
+v6.11.4 (2016-10-03)	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^## v6.11.4 (2016-10-03)$/;"	function	line:592
+v6.11.3 (2016-10-01)	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^## v6.11.3 (2016-10-01)$/;"	function	line:596
+:eyeglasses: Spec Compliancy	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### :eyeglasses: Spec Compliancy$/;"	function	line:598
+New Syntax Errors:	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^#### New Syntax Errors:$/;"	function	line:613
+Previous behavior:	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^# Previous behavior:$/;"	function	line:619
+x = { x: 1, y: 2, z: 3 }	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^# x = { x: 1, y: 2, z: 3 }$/;"	function	line:620
+y = 2	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^# y = 2$/;"	function	line:621
+z = 3	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^# z = 3$/;"	function	line:622
+Previous behavior:	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^# Previous behavior:$/;"	function	line:632
+x = 1	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^# x = 1$/;"	function	line:633
+y = { y: 2, z: 3 }	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^# y = { y: 2, z: 3 }$/;"	function	line:634
+z = { y: 2, z: 3 }	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^# z = { y: 2, z: 3 }$/;"	function	line:635
+v6.11.2 (2016-09-23)	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^## v6.11.2 (2016-09-23)$/;"	function	line:657
+Bug Fix	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### Bug Fix$/;"	function	line:659
+6.11.1 (2016-09-22)	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^## 6.11.1 (2016-09-22)$/;"	function	line:673
+Bug Fix	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### Bug Fix$/;"	function	line:675
+6.11.0 (2016-09-22)	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^## 6.11.0 (2016-09-22)$/;"	function	line:689
+Spec Compliancy (will break CI)	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### Spec Compliancy (will break CI)$/;"	function	line:691
+New Feature (Syntax)	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### New Feature (Syntax)$/;"	function	line:709
+Bug Fix	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### Bug Fix$/;"	function	line:736
+Polish	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### Polish$/;"	function	line:748
+Internal	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### Internal$/;"	function	line:764
+6.10.0 (2016-09-19)	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^## 6.10.0 (2016-09-19)$/;"	function	line:769
+Spec Compliancy	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### Spec Compliancy$/;"	function	line:773
+New Feature	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### New Feature$/;"	function	line:793
+Bug Fixes	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### Bug Fixes$/;"	function	line:805
+Misc	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### Misc$/;"	function	line:811
+6.9.2 (2016-09-09)	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^## 6.9.2 (2016-09-09)$/;"	function	line:816
+6.9.1 (2016-08-23)	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^## 6.9.1 (2016-08-23)$/;"	function	line:820
+Bug Fixes	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### Bug Fixes$/;"	function	line:824
+6.9.0 (2016-08-16)	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^## 6.9.0 (2016-08-16)$/;"	function	line:832
+New syntax support	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### New syntax support$/;"	function	line:834
+New Features	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### New Features$/;"	function	line:854
+Bug Fixes	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### Bug Fixes$/;"	function	line:859
+Internal	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### Internal$/;"	function	line:869
+6.8.4 (2016-07-06)	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^## 6.8.4 (2016-07-06)$/;"	function	line:879
+Bug Fixes	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### Bug Fixes$/;"	function	line:881
+6.8.3 (2016-07-02)	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^## 6.8.3 (2016-07-02)$/;"	function	line:885
+Bug Fixes	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### Bug Fixes$/;"	function	line:887
+6.8.2 (2016-06-24)	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^## 6.8.2 (2016-06-24)$/;"	function	line:891
+Bug Fixes	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### Bug Fixes$/;"	function	line:893
+Documentation	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### Documentation$/;"	function	line:906
+Internal	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### Internal$/;"	function	line:911
+6.8.1 (2016-06-06)	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^## 6.8.1 (2016-06-06)$/;"	function	line:921
+New Feature	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### New Feature$/;"	function	line:923
+Bug Fixes	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### Bug Fixes$/;"	function	line:927
+Spec Compliancy	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^### Spec Compliancy$/;"	function	line:932
+6.8.0 (2016-05-02)	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^## 6.8.0 (2016-05-02)$/;"	function	line:945
+New Feature	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^#### New Feature$/;"	function	line:947
+Parse Method Parameter Decorators ([	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^##### Parse Method Parameter Decorators ([#12](https:\/\/github.com\/babel\/babylon\/pull\/12))$/;"	function	line:949
+Parse for-await statements (w/ `asyncGenerators` plugin) ([	/Users/sunshine/bifeitang.github.io/node_modules/babylon/CHANGELOG.md	/^##### Parse for-await statements (w\/ `asyncGenerators` plugin) ([#17](https:\/\/github.com\/babel\/babylon\/pull\/17))$/;"	function	line:967
+Credits	/Users/sunshine/bifeitang.github.io/node_modules/babylon/README.md	/^## Credits$/;"	function	line:19
+API	/Users/sunshine/bifeitang.github.io/node_modules/babylon/README.md	/^## API$/;"	function	line:26
+`babylon.parse(code, [options])`	/Users/sunshine/bifeitang.github.io/node_modules/babylon/README.md	/^### `babylon.parse(code, [options])`$/;"	function	line:28
+`babylon.parseExpression(code, [options])`	/Users/sunshine/bifeitang.github.io/node_modules/babylon/README.md	/^### `babylon.parseExpression(code, [options])`$/;"	function	line:30
+Options	/Users/sunshine/bifeitang.github.io/node_modules/babylon/README.md	/^### Options$/;"	function	line:36
+Output	/Users/sunshine/bifeitang.github.io/node_modules/babylon/README.md	/^### Output$/;"	function	line:59
+Semver	/Users/sunshine/bifeitang.github.io/node_modules/babylon/README.md	/^### Semver$/;"	function	line:99
+Example	/Users/sunshine/bifeitang.github.io/node_modules/babylon/README.md	/^### Example$/;"	function	line:105
+Plugins	/Users/sunshine/bifeitang.github.io/node_modules/babylon/README.md	/^### Plugins$/;"	function	line:120
+_from	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^  "_from": "babylon@^6.17.0",$/;"	function	line:2
+_id	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^  "_id": "babylon@6.18.0",$/;"	function	line:3
+_inBundle	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^  "_inBundle": false,$/;"	function	line:4
+_integrity	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^  "_integrity": "sha512-q\/UEjfGJ2Cm3oKV71DJz9d25TPnq5rhBVL2Q4fA5wcC3jcrdn7+SssEybFIxwAvvP+YCsCYNKughoF33GxgycQ==",$/;"	function	line:5
+_location	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^  "_location": "\/babylon",$/;"	function	line:6
+_phantomChildren	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^  "_phantomChildren": {},$/;"	function	line:7
+_requested	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^  "_requested": {$/;"	function	line:8
+type	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "type": "range",$/;"	function	line:9
+registry	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "registry": true,$/;"	function	line:10
+raw	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "raw": "babylon@^6.17.0",$/;"	function	line:11
+name	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "name": "babylon",$/;"	function	line:12
+escapedName	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "escapedName": "babylon",$/;"	function	line:13
+rawSpec	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "rawSpec": "^6.17.0",$/;"	function	line:14
+saveSpec	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "saveSpec": null,$/;"	function	line:15
+fetchSpec	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "fetchSpec": "^6.17.0"$/;"	function	line:16
+_requiredBy	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^  "_requiredBy": [$/;"	function	line:18
+_resolved	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^  "_resolved": "https:\/\/registry.npmjs.org\/babylon\/-\/babylon-6.18.0.tgz",$/;"	function	line:22
+_shasum	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^  "_shasum": "af2f3b88fa6f5c1e4c634d1a0f8eac4f55b395e3",$/;"	function	line:23
+_spec	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^  "_spec": "babylon@^6.17.0",$/;"	function	line:24
+_where	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^  "_where": "\/Users\/sunshine\/bifeitang.github.io\/node_modules\/babel-eslint",$/;"	function	line:25
+author	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^  "author": {$/;"	function	line:26
+name	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "name": "Sebastian McKenzie",$/;"	function	line:27
+email	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "email": "sebmck@gmail.com"$/;"	function	line:28
+ava	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^  "ava": {$/;"	function	line:30
+files	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "files": [$/;"	function	line:31
+source	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "source": [$/;"	function	line:34
+bin	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^  "bin": {$/;"	function	line:39
+babylon	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "babylon": ".\/bin\/babylon.js"$/;"	function	line:40
+bugs	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^  "bugs": {$/;"	function	line:42
+url	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "url": "https:\/\/github.com\/babel\/babylon\/issues"$/;"	function	line:43
+bundleDependencies	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^  "bundleDependencies": false,$/;"	function	line:45
+deprecated	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^  "deprecated": false,$/;"	function	line:46
+description	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^  "description": "A JavaScript parser",$/;"	function	line:47
+devDependencies	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^  "devDependencies": {$/;"	function	line:48
+ava	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "ava": "^0.17.0",$/;"	function	line:49
+babel-cli	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "babel-cli": "^6.14.0",$/;"	function	line:50
+babel-eslint	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "babel-eslint": "^7.0.0",$/;"	function	line:51
+babel-helper-fixtures	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "babel-helper-fixtures": "^6.9.0",$/;"	function	line:52
+babel-plugin-external-helpers	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "babel-plugin-external-helpers": "^6.18.0",$/;"	function	line:53
+babel-plugin-istanbul	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "babel-plugin-istanbul": "^3.0.0",$/;"	function	line:54
+babel-plugin-transform-flow-strip-types	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "babel-plugin-transform-flow-strip-types": "^6.14.0",$/;"	function	line:55
+babel-preset-es2015	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "babel-preset-es2015": "^6.14.0",$/;"	function	line:56
+babel-preset-stage-0	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "babel-preset-stage-0": "^6.5.0",$/;"	function	line:57
+chalk	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "chalk": "^1.1.3",$/;"	function	line:58
+codecov	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "codecov": "^1.0.1",$/;"	function	line:59
+cross-env	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "cross-env": "^2.0.0",$/;"	function	line:60
+eslint	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "eslint": "^3.7.1",$/;"	function	line:61
+eslint-config-babel	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "eslint-config-babel": "^6.0.0",$/;"	function	line:62
+eslint-plugin-flowtype	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "eslint-plugin-flowtype": "^2.20.0",$/;"	function	line:63
+flow-bin	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "flow-bin": "^0.42.0",$/;"	function	line:64
+nyc	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "nyc": "^10.0.0",$/;"	function	line:65
+rimraf	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "rimraf": "^2.5.4",$/;"	function	line:66
+rollup	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "rollup": "^0.41.0",$/;"	function	line:67
+rollup-plugin-babel	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "rollup-plugin-babel": "^2.6.1",$/;"	function	line:68
+rollup-plugin-node-resolve	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "rollup-plugin-node-resolve": "^2.0.0",$/;"	function	line:69
+rollup-watch	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "rollup-watch": "^3.2.2",$/;"	function	line:70
+unicode-9.0.0	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "unicode-9.0.0": "~0.7.0"$/;"	function	line:71
+files	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^  "files": [$/;"	function	line:73
+greenkeeper	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^  "greenkeeper": {$/;"	function	line:77
+ignore	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "ignore": [$/;"	function	line:78
+homepage	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^  "homepage": "https:\/\/babeljs.io\/",$/;"	function	line:82
+keywords	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^  "keywords": [$/;"	function	line:83
+license	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^  "license": "MIT",$/;"	function	line:89
+main	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^  "main": "lib\/index.js",$/;"	function	line:90
+name	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^  "name": "babylon",$/;"	function	line:91
+nyc	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^  "nyc": {$/;"	function	line:92
+include	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "include": [$/;"	function	line:93
+sourceMap	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "sourceMap": false,$/;"	function	line:97
+instrument	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "instrument": false$/;"	function	line:98
+repository	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^  "repository": {$/;"	function	line:100
+type	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "type": "git",$/;"	function	line:101
+url	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "url": "git+https:\/\/github.com\/babel\/babylon.git"$/;"	function	line:102
+scripts	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^  "scripts": {$/;"	function	line:104
+build	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "build": "npm run clean && rollup -c",$/;"	function	line:105
+changelog	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "changelog": "git log `git describe --tags --abbrev=0`..HEAD --pretty=format:' * %s (%an)' | grep -v 'Merge pull request'",$/;"	function	line:106
+clean	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "clean": "rimraf lib",$/;"	function	line:107
+coverage	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "coverage": "nyc report --reporter=json && codecov -f coverage\/coverage-final.json",$/;"	function	line:108
+flow	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "flow": "flow",$/;"	function	line:109
+lint	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "lint": "eslint src bin",$/;"	function	line:110
+prepublish	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "prepublish": "cross-env BABEL_ENV=production npm run build",$/;"	function	line:111
+preversion	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "preversion": "npm run test && npm run changelog",$/;"	function	line:112
+test	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "test": "npm run lint && npm run flow && npm run build -- -m && npm run test-only",$/;"	function	line:113
+test-ci	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "test-ci": "nyc npm run test-only",$/;"	function	line:114
+test-only	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "test-only": "ava",$/;"	function	line:115
+watch	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^    "watch": "npm run clean && rollup -c --watch"$/;"	function	line:116
+version	/Users/sunshine/bifeitang.github.io/node_modules/babylon/package.json	/^  "version": "6.18.0"$/;"	function	line:118
+makePredicate	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^function makePredicate(words) {$/;"	function	line:16
+makePredicate	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^function makePredicate(words) {$/;"	function	line:16
+reservedWords.6	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var reservedWords = {$/;"	property	line:25
+nonASCIIidentifierStartChars	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var nonASCIIidentifierStartChars = "\\xAA\\xB5\\xBA\\xC0-\\xD6\\xD8-\\xF6\\xF8-\\u02C1\\u02C6-\\u02D1\\u02E0-\\u02E4\\u02EC\\u02EE\\u0370-\\u0374\\u0376\\u0377\\u037A-\\u037D\\u037F\\u0386\\u0388-\\u038A\\u038C\\u038E-\\u03A1\\u03A3-\\u03F5\\u03F7-\\u0481\\u048A-\\u052F\\u0531-\\u0556\\u0559\\u0561-\\u0587\\u05D0-\\u05EA\\u05F0-\\u05F2\\u0620-\\u064A\\u066E\\u066F\\u0671-\\u06D3\\u06D5\\u06E5\\u06E6\\u06EE\\u06EF\\u06FA-\\u06FC\\u06FF\\u0710\\u0712-\\u072F\\u074D-\\u07A5\\u07B1\\u07CA-\\u07EA\\u07F4\\u07F5\\u07FA\\u0800-\\u0815\\u081A\\u0824\\u0828\\u0840-\\u0858\\u08A0-\\u08B4\\u08B6-\\u08BD\\u0904-\\u0939\\u093D\\u0950\\u0958-\\u0961\\u0971-\\u0980\\u0985-\\u098C\\u098F\\u0990\\u0993-\\u09A8\\u09AA-\\u09B0\\u09B2\\u09B6-\\u09B9\\u09BD\\u09CE\\u09DC\\u09DD\\u09DF-\\u09E1\\u09F0\\u09F1\\u0A05-\\u0A0A\\u0A0F\\u0A10\\u0A13-\\u0A28\\u0A2A-\\u0A30\\u0A32\\u0A33\\u0A35\\u0A36\\u0A38\\u0A39\\u0A59-\\u0A5C\\u0A5E\\u0A72-\\u0A74\\u0A85-\\u0A8D\\u0A8F-\\u0A91\\u0A93-\\u0AA8\\u0AAA-\\u0AB0\\u0AB2\\u0AB3\\u0AB5-\\u0AB9\\u0ABD\\u0AD0\\u0AE0\\u0AE1\\u0AF9\\u0B05-\\u0B0C\\u0B0F\\u0B10\\u0B13-\\u0B28\\u0B2A-\\u0B30\\u0B32\\u0B33\\u0B35-\\u0B39\\u0B3D\\u0B5C\\u0B5D\\u0B5F-\\u0B61\\u0B71\\u0B83\\u0B85-\\u0B8A\\u0B8E-\\u0B90\\u0B92-\\u0B95\\u0B99\\u0B9A\\u0B9C\\u0B9E\\u0B9F\\u0BA3\\u0BA4\\u0BA8-\\u0BAA\\u0BAE-\\u0BB9\\u0BD0\\u0C05-\\u0C0C\\u0C0E-\\u0C10\\u0C12-\\u0C28\\u0C2A-\\u0C39\\u0C3D\\u0C58-\\u0C5A\\u0C60\\u0C61\\u0C80\\u0C85-\\u0C8C\\u0C8E-\\u0C90\\u0C92-\\u0CA8\\u0CAA-\\u0CB3\\u0CB5-\\u0CB9\\u0CBD\\u0CDE\\u0CE0\\u0CE1\\u0CF1\\u0CF2\\u0D05-\\u0D0C\\u0D0E-\\u0D10\\u0D12-\\u0D3A\\u0D3D\\u0D4E\\u0D54-\\u0D56\\u0D5F-\\u0D61\\u0D7A-\\u0D7F\\u0D85-\\u0D96\\u0D9A-\\u0DB1\\u0DB3-\\u0DBB\\u0DBD\\u0DC0-\\u0DC6\\u0E01-\\u0E30\\u0E32\\u0E33\\u0E40-\\u0E46\\u0E81\\u0E82\\u0E84\\u0E87\\u0E88\\u0E8A\\u0E8D\\u0E94-\\u0E97\\u0E99-\\u0E9F\\u0EA1-\\u0EA3\\u0EA5\\u0EA7\\u0EAA\\u0EAB\\u0EAD-\\u0EB0\\u0EB2\\u0EB3\\u0EBD\\u0EC0-\\u0EC4\\u0EC6\\u0EDC-\\u0EDF\\u0F00\\u0F40-\\u0F47\\u0F49-\\u0F6C\\u0F88-\\u0F8C\\u1000-\\u102A\\u103F\\u1050-\\u1055\\u105A-\\u105D\\u1061\\u1065\\u1066\\u106E-\\u1070\\u1075-\\u1081\\u108E\\u10A0-\\u10C5\\u10C7\\u10CD\\u10D0-\\u10FA\\u10FC-\\u1248\\u124A-\\u124D\\u1250-\\u1256\\u1258\\u125A-\\u125D\\u1260-\\u1288\\u128A-\\u128D\\u1290-\\u12B0\\u12B2-\\u12B5\\u12B8-\\u12BE\\u12C0\\u12C2-\\u12C5\\u12C8-\\u12D6\\u12D8-\\u1310\\u1312-\\u1315\\u1318-\\u135A\\u1380-\\u138F\\u13A0-\\u13F5\\u13F8-\\u13FD\\u1401-\\u166C\\u166F-\\u167F\\u1681-\\u169A\\u16A0-\\u16EA\\u16EE-\\u16F8\\u1700-\\u170C\\u170E-\\u1711\\u1720-\\u1731\\u1740-\\u1751\\u1760-\\u176C\\u176E-\\u1770\\u1780-\\u17B3\\u17D7\\u17DC\\u1820-\\u1877\\u1880-\\u18A8\\u18AA\\u18B0-\\u18F5\\u1900-\\u191E\\u1950-\\u196D\\u1970-\\u1974\\u1980-\\u19AB\\u19B0-\\u19C9\\u1A00-\\u1A16\\u1A20-\\u1A54\\u1AA7\\u1B05-\\u1B33\\u1B45-\\u1B4B\\u1B83-\\u1BA0\\u1BAE\\u1BAF\\u1BBA-\\u1BE5\\u1C00-\\u1C23\\u1C4D-\\u1C4F\\u1C5A-\\u1C7D\\u1C80-\\u1C88\\u1CE9-\\u1CEC\\u1CEE-\\u1CF1\\u1CF5\\u1CF6\\u1D00-\\u1DBF\\u1E00-\\u1F15\\u1F18-\\u1F1D\\u1F20-\\u1F45\\u1F48-\\u1F4D\\u1F50-\\u1F57\\u1F59\\u1F5B\\u1F5D\\u1F5F-\\u1F7D\\u1F80-\\u1FB4\\u1FB6-\\u1FBC\\u1FBE\\u1FC2-\\u1FC4\\u1FC6-\\u1FCC\\u1FD0-\\u1FD3\\u1FD6-\\u1FDB\\u1FE0-\\u1FEC\\u1FF2-\\u1FF4\\u1FF6-\\u1FFC\\u2071\\u207F\\u2090-\\u209C\\u2102\\u2107\\u210A-\\u2113\\u2115\\u2118-\\u211D\\u2124\\u2126\\u2128\\u212A-\\u2139\\u213C-\\u213F\\u2145-\\u2149\\u214E\\u2160-\\u2188\\u2C00-\\u2C2E\\u2C30-\\u2C5E\\u2C60-\\u2CE4\\u2CEB-\\u2CEE\\u2CF2\\u2CF3\\u2D00-\\u2D25\\u2D27\\u2D2D\\u2D30-\\u2D67\\u2D6F\\u2D80-\\u2D96\\u2DA0-\\u2DA6\\u2DA8-\\u2DAE\\u2DB0-\\u2DB6\\u2DB8-\\u2DBE\\u2DC0-\\u2DC6\\u2DC8-\\u2DCE\\u2DD0-\\u2DD6\\u2DD8-\\u2DDE\\u3005-\\u3007\\u3021-\\u3029\\u3031-\\u3035\\u3038-\\u303C\\u3041-\\u3096\\u309B-\\u309F\\u30A1-\\u30FA\\u30FC-\\u30FF\\u3105-\\u312D\\u3131-\\u318E\\u31A0-\\u31BA\\u31F0-\\u31FF\\u3400-\\u4DB5\\u4E00-\\u9FD5\\uA000-\\uA48C\\uA4D0-\\uA4FD\\uA500-\\uA60C\\uA610-\\uA61F\\uA62A\\uA62B\\uA640-\\uA66E\\uA67F-\\uA69D\\uA6A0-\\uA6EF\\uA717-\\uA71F\\uA722-\\uA788\\uA78B-\\uA7AE\\uA7B0-\\uA7B7\\uA7F7-\\uA801\\uA803-\\uA805\\uA807-\\uA80A\\uA80C-\\uA822\\uA840-\\uA873\\uA882-\\uA8B3\\uA8F2-\\uA8F7\\uA8FB\\uA8FD\\uA90A-\\uA925\\uA930-\\uA946\\uA960-\\uA97C\\uA984-\\uA9B2\\uA9CF\\uA9E0-\\uA9E4\\uA9E6-\\uA9EF\\uA9FA-\\uA9FE\\uAA00-\\uAA28\\uAA40-\\uAA42\\uAA44-\\uAA4B\\uAA60-\\uAA76\\uAA7A\\uAA7E-\\uAAAF\\uAAB1\\uAAB5\\uAAB6\\uAAB9-\\uAABD\\uAAC0\\uAAC2\\uAADB-\\uAADD\\uAAE0-\\uAAEA\\uAAF2-\\uAAF4\\uAB01-\\uAB06\\uAB09-\\uAB0E\\uAB11-\\uAB16\\uAB20-\\uAB26\\uAB28-\\uAB2E\\uAB30-\\uAB5A\\uAB5C-\\uAB65\\uAB70-\\uABE2\\uAC00-\\uD7A3\\uD7B0-\\uD7C6\\uD7CB-\\uD7FB\\uF900-\\uFA6D\\uFA70-\\uFAD9\\uFB00-\\uFB06\\uFB13-\\uFB17\\uFB1D\\uFB1F-\\uFB28\\uFB2A-\\uFB36\\uFB38-\\uFB3C\\uFB3E\\uFB40\\uFB41\\uFB43\\uFB44\\uFB46-\\uFBB1\\uFBD3-\\uFD3D\\uFD50-\\uFD8F\\uFD92-\\uFDC7\\uFDF0-\\uFDFB\\uFE70-\\uFE74\\uFE76-\\uFEFC\\uFF21-\\uFF3A\\uFF41-\\uFF5A\\uFF66-\\uFFBE\\uFFC2-\\uFFC7\\uFFCA-\\uFFCF\\uFFD2-\\uFFD7\\uFFDA-\\uFFDC";$/;"	variable	line:43
+nonASCIIidentifierChars	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var nonASCIIidentifierChars = "\\u200C\\u200D\\xB7\\u0300-\\u036F\\u0387\\u0483-\\u0487\\u0591-\\u05BD\\u05BF\\u05C1\\u05C2\\u05C4\\u05C5\\u05C7\\u0610-\\u061A\\u064B-\\u0669\\u0670\\u06D6-\\u06DC\\u06DF-\\u06E4\\u06E7\\u06E8\\u06EA-\\u06ED\\u06F0-\\u06F9\\u0711\\u0730-\\u074A\\u07A6-\\u07B0\\u07C0-\\u07C9\\u07EB-\\u07F3\\u0816-\\u0819\\u081B-\\u0823\\u0825-\\u0827\\u0829-\\u082D\\u0859-\\u085B\\u08D4-\\u08E1\\u08E3-\\u0903\\u093A-\\u093C\\u093E-\\u094F\\u0951-\\u0957\\u0962\\u0963\\u0966-\\u096F\\u0981-\\u0983\\u09BC\\u09BE-\\u09C4\\u09C7\\u09C8\\u09CB-\\u09CD\\u09D7\\u09E2\\u09E3\\u09E6-\\u09EF\\u0A01-\\u0A03\\u0A3C\\u0A3E-\\u0A42\\u0A47\\u0A48\\u0A4B-\\u0A4D\\u0A51\\u0A66-\\u0A71\\u0A75\\u0A81-\\u0A83\\u0ABC\\u0ABE-\\u0AC5\\u0AC7-\\u0AC9\\u0ACB-\\u0ACD\\u0AE2\\u0AE3\\u0AE6-\\u0AEF\\u0B01-\\u0B03\\u0B3C\\u0B3E-\\u0B44\\u0B47\\u0B48\\u0B4B-\\u0B4D\\u0B56\\u0B57\\u0B62\\u0B63\\u0B66-\\u0B6F\\u0B82\\u0BBE-\\u0BC2\\u0BC6-\\u0BC8\\u0BCA-\\u0BCD\\u0BD7\\u0BE6-\\u0BEF\\u0C00-\\u0C03\\u0C3E-\\u0C44\\u0C46-\\u0C48\\u0C4A-\\u0C4D\\u0C55\\u0C56\\u0C62\\u0C63\\u0C66-\\u0C6F\\u0C81-\\u0C83\\u0CBC\\u0CBE-\\u0CC4\\u0CC6-\\u0CC8\\u0CCA-\\u0CCD\\u0CD5\\u0CD6\\u0CE2\\u0CE3\\u0CE6-\\u0CEF\\u0D01-\\u0D03\\u0D3E-\\u0D44\\u0D46-\\u0D48\\u0D4A-\\u0D4D\\u0D57\\u0D62\\u0D63\\u0D66-\\u0D6F\\u0D82\\u0D83\\u0DCA\\u0DCF-\\u0DD4\\u0DD6\\u0DD8-\\u0DDF\\u0DE6-\\u0DEF\\u0DF2\\u0DF3\\u0E31\\u0E34-\\u0E3A\\u0E47-\\u0E4E\\u0E50-\\u0E59\\u0EB1\\u0EB4-\\u0EB9\\u0EBB\\u0EBC\\u0EC8-\\u0ECD\\u0ED0-\\u0ED9\\u0F18\\u0F19\\u0F20-\\u0F29\\u0F35\\u0F37\\u0F39\\u0F3E\\u0F3F\\u0F71-\\u0F84\\u0F86\\u0F87\\u0F8D-\\u0F97\\u0F99-\\u0FBC\\u0FC6\\u102B-\\u103E\\u1040-\\u1049\\u1056-\\u1059\\u105E-\\u1060\\u1062-\\u1064\\u1067-\\u106D\\u1071-\\u1074\\u1082-\\u108D\\u108F-\\u109D\\u135D-\\u135F\\u1369-\\u1371\\u1712-\\u1714\\u1732-\\u1734\\u1752\\u1753\\u1772\\u1773\\u17B4-\\u17D3\\u17DD\\u17E0-\\u17E9\\u180B-\\u180D\\u1810-\\u1819\\u18A9\\u1920-\\u192B\\u1930-\\u193B\\u1946-\\u194F\\u19D0-\\u19DA\\u1A17-\\u1A1B\\u1A55-\\u1A5E\\u1A60-\\u1A7C\\u1A7F-\\u1A89\\u1A90-\\u1A99\\u1AB0-\\u1ABD\\u1B00-\\u1B04\\u1B34-\\u1B44\\u1B50-\\u1B59\\u1B6B-\\u1B73\\u1B80-\\u1B82\\u1BA1-\\u1BAD\\u1BB0-\\u1BB9\\u1BE6-\\u1BF3\\u1C24-\\u1C37\\u1C40-\\u1C49\\u1C50-\\u1C59\\u1CD0-\\u1CD2\\u1CD4-\\u1CE8\\u1CED\\u1CF2-\\u1CF4\\u1CF8\\u1CF9\\u1DC0-\\u1DF5\\u1DFB-\\u1DFF\\u203F\\u2040\\u2054\\u20D0-\\u20DC\\u20E1\\u20E5-\\u20F0\\u2CEF-\\u2CF1\\u2D7F\\u2DE0-\\u2DFF\\u302A-\\u302F\\u3099\\u309A\\uA620-\\uA629\\uA66F\\uA674-\\uA67D\\uA69E\\uA69F\\uA6F0\\uA6F1\\uA802\\uA806\\uA80B\\uA823-\\uA827\\uA880\\uA881\\uA8B4-\\uA8C5\\uA8D0-\\uA8D9\\uA8E0-\\uA8F1\\uA900-\\uA909\\uA926-\\uA92D\\uA947-\\uA953\\uA980-\\uA983\\uA9B3-\\uA9C0\\uA9D0-\\uA9D9\\uA9E5\\uA9F0-\\uA9F9\\uAA29-\\uAA36\\uAA43\\uAA4C\\uAA4D\\uAA50-\\uAA59\\uAA7B-\\uAA7D\\uAAB0\\uAAB2-\\uAAB4\\uAAB7\\uAAB8\\uAABE\\uAABF\\uAAC1\\uAAEB-\\uAAEF\\uAAF5\\uAAF6\\uABE3-\\uABEA\\uABEC\\uABED\\uABF0-\\uABF9\\uFB1E\\uFE00-\\uFE0F\\uFE20-\\uFE2F\\uFE33\\uFE34\\uFE4D-\\uFE4F\\uFF10-\\uFF19\\uFF3F";$/;"	variable	line:44
+astralIdentifierStartCodes	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var astralIdentifierStartCodes = [0, 11, 2, 25, 2, 18, 2, 1, 2, 14, 3, 13, 35, 122, 70, 52, 268, 28, 4, 48, 48, 31, 17, 26, 6, 37, 11, 29, 3, 35, 5, 7, 2, 4, 43, 157, 19, 35, 5, 35, 5, 39, 9, 51, 157, 310, 10, 21, 11, 7, 153, 5, 3, 0, 2, 43, 2, 1, 4, 0, 3, 22, 11, 22, 10, 30, 66, 18, 2, 1, 11, 21, 11, 25, 71, 55, 7, 1, 65, 0, 16, 3, 2, 2, 2, 26, 45, 28, 4, 28, 36, 7, 2, 27, 28, 53, 11, 21, 11, 18, 14, 17, 111, 72, 56, 50, 14, 50, 785, 52, 76, 44, 33, 24, 27, 35, 42, 34, 4, 0, 13, 47, 15, 3, 22, 0, 2, 0, 36, 17, 2, 24, 85, 6, 2, 0, 2, 3, 2, 14, 2, 9, 8, 46, 39, 7, 3, 1, 3, 21, 2, 6, 2, 1, 2, 4, 4, 0, 19, 0, 13, 4, 159, 52, 19, 3, 54, 47, 21, 1, 2, 0, 185, 46, 42, 3, 37, 47, 21, 0, 60, 42, 86, 25, 391, 63, 32, 0, 449, 56, 264, 8, 2, 36, 18, 0, 50, 29, 881, 921, 103, 110, 18, 195, 2749, 1070, 4050, 582, 8634, 568, 8, 30, 114, 29, 19, 47, 17, 3, 32, 20, 6, 18, 881, 68, 12, 0, 67, 12, 65, 0, 32, 6124, 20, 754, 9486, 1, 3071, 106, 6, 12, 4, 8, 8, 9, 5991, 84, 2, 70, 2, 1, 3, 0, 3, 1, 3, 3, 2, 11, 2, 0, 2, 6, 2, 64, 2, 3, 3, 7, 2, 6, 2, 27, 2, 3, 2, 4, 2, 0, 4, 6, 2, 339, 3, 24, 2, 24, 2, 30, 2, 24, 2, 30, 2, 24, 2, 30, 2, 24, 2, 30, 2, 24, 2, 7, 4149, 196, 60, 67, 1213, 3, 2, 26, 2, 1, 2, 0, 3, 0, 2, 9, 2, 3, 2, 0, 2, 0, 7, 0, 5, 0, 2, 0, 2, 0, 2, 2, 2, 1, 2, 0, 3, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2, 1, 2, 0, 3, 3, 2, 6, 2, 3, 2, 3, 2, 0, 2, 9, 2, 16, 6, 2, 2, 4, 2, 16, 4421, 42710, 42, 4148, 12, 221, 3, 5761, 10591, 541];$/;"	variable	line:57
+astralIdentifierCodes	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var astralIdentifierCodes = [509, 0, 227, 0, 150, 4, 294, 9, 1368, 2, 2, 1, 6, 3, 41, 2, 5, 0, 166, 1, 1306, 2, 54, 14, 32, 9, 16, 3, 46, 10, 54, 9, 7, 2, 37, 13, 2, 9, 52, 0, 13, 2, 49, 13, 10, 2, 4, 9, 83, 11, 7, 0, 161, 11, 6, 9, 7, 3, 57, 0, 2, 6, 3, 1, 3, 2, 10, 0, 11, 1, 3, 6, 4, 4, 193, 17, 10, 9, 87, 19, 13, 9, 214, 6, 3, 8, 28, 1, 83, 16, 16, 9, 82, 12, 9, 9, 84, 14, 5, 9, 423, 9, 838, 7, 2, 7, 17, 9, 57, 21, 2, 13, 19882, 9, 135, 4, 60, 6, 26, 9, 1016, 45, 17, 3, 19723, 1, 5319, 4, 4, 5, 9, 7, 3, 6, 31, 3, 149, 2, 1418, 49, 513, 54, 5, 49, 9, 0, 15, 0, 23, 4, 2, 14, 1361, 6, 2, 16, 3, 6, 2, 1, 2, 4, 2214, 6, 110, 6, 6, 9, 792487, 239];$/;"	variable	line:59
+isInAstralSet	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^function isInAstralSet(code, set) {$/;"	function	line:64
+isInAstralSet	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^function isInAstralSet(code, set) {$/;"	function	line:64
+isIdentifierStart	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^function isIdentifierStart(code) {$/;"	function	line:77
+isIdentifierStart	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^function isIdentifierStart(code) {$/;"	function	line:77
+isIdentifierChar	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^function isIdentifierChar(code) {$/;"	function	line:88
+isIdentifierChar	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^function isIdentifierChar(code) {$/;"	function	line:88
+defaultOptions.sourceType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var defaultOptions = {$/;"	property	line:100
+defaultOptions.sourceFilename	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  sourceType: "script",$/;"	property	line:102
+defaultOptions.startLine	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  sourceFilename: undefined,$/;"	property	line:104
+defaultOptions.allowReturnOutsideFunction	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  startLine: 1,$/;"	property	line:107
+defaultOptions.allowImportExportEverywhere	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  allowReturnOutsideFunction: false,$/;"	property	line:110
+defaultOptions.allowSuperOutsideMethod	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  allowImportExportEverywhere: false,$/;"	property	line:113
+defaultOptions.plugins	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  allowSuperOutsideMethod: false,$/;"	property	line:115
+getOptions	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^function getOptions(opts) {$/;"	function	line:124
+getOptions	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^function getOptions(opts) {$/;"	function	line:124
+classCallCheck	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var classCallCheck = function (instance, Constructor) {$/;"	function	line:148
+classCallCheck	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var classCallCheck = function (instance, Constructor) {$/;"	function	line:148
+inherits	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var inherits = function (subClass, superClass) {$/;"	function	line:164
+subClass	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  }$/;"	class	line:167
+inherits	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var inherits = function (subClass, superClass) {$/;"	function	line:164
+possibleConstructorReturn	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var possibleConstructorReturn = function (self, call) {$/;"	function	line:190
+possibleConstructorReturn	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var possibleConstructorReturn = function (self, call) {$/;"	function	line:190
+beforeExpr	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var beforeExpr = true;$/;"	variable	line:216
+startsExpr	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var startsExpr = true;$/;"	variable	line:217
+isLoop	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var isLoop = true;$/;"	variable	line:218
+isAssign	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var isAssign = true;$/;"	variable	line:219
+prefix	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var prefix = true;$/;"	variable	line:220
+postfix	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var postfix = true;$/;"	variable	line:221
+TokenType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var TokenType = function TokenType(label) {$/;"	function	line:223
+TokenType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var TokenType = function TokenType(label) {$/;"	class	line:223
+TokenType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var TokenType = function TokenType(label) {$/;"	function	line:223
+KeywordTokenType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var KeywordTokenType = function (_TokenType) {$/;"	function	line:240
+KeywordTokenType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  function KeywordTokenType(name) {$/;"	function	line:243
+KeywordTokenType.KeywordTokenType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  function KeywordTokenType(name) {$/;"	function	line:243
+KeywordTokenType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var KeywordTokenType = function (_TokenType) {$/;"	function	line:240
+BinopTokenType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var BinopTokenType = function (_TokenType2) {$/;"	function	line:255
+BinopTokenType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  function BinopTokenType(name, prec) {$/;"	function	line:258
+BinopTokenType.BinopTokenType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  function BinopTokenType(name, prec) {$/;"	function	line:258
+BinopTokenType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var BinopTokenType = function (_TokenType2) {$/;"	function	line:255
+types.num	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var types = {$/;"	property	line:266
+keywords.break	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var keywords = {$/;"	property	line:328
+lineBreak	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var lineBreak = \/\\r\\n?|\\n|\\u2028|\\u2029\/;$/;"	variable	line:376
+isNewLine	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^function isNewLine(code) {$/;"	function	line:379
+isNewLine	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^function isNewLine(code) {$/;"	function	line:379
+nonASCIIwhitespace	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var nonASCIIwhitespace = \/[\\u1680\\u180e\\u2000-\\u200a\\u202f\\u205f\\u3000\\ufeff]\/;$/;"	variable	line:383
+TokContext	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var TokContext = function TokContext(token, isExpr, preserveSpace, override) {$/;"	function	line:389
+TokContext	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var TokContext = function TokContext(token, isExpr, preserveSpace, override) {$/;"	class	line:389
+TokContext	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var TokContext = function TokContext(token, isExpr, preserveSpace, override) {$/;"	function	line:389
+types$1.braceStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var types$1 = {$/;"	property	line:398
+updateContext	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^types.name.updateContext = function (prevType) {$/;"	function	line:429
+types.name.updateContext	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:427
+updateContext	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^types.braceL.updateContext = function (prevType) {$/;"	function	line:439
+types.braceL.updateContext	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:437
+updateContext	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^types.dollarBraceL.updateContext = function () {$/;"	function	line:444
+types.dollarBraceL.updateContext	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:442
+updateContext	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^types.parenL.updateContext = function (prevType) {$/;"	function	line:449
+types.parenL.updateContext	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:447
+updateContext	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^types.incDec.updateContext = function () {$/;"	function	line:455
+types.incDec.updateContext	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:453
+updateContext	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^types._function.updateContext = function () {$/;"	function	line:459
+types._function.updateContext	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:457
+updateContext	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^types.backQuote.updateContext = function () {$/;"	function	line:467
+types.backQuote.updateContext	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:465
+Position	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var Position = function Position(line, col) {$/;"	function	line:479
+Position	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var Position = function Position(line, col) {$/;"	class	line:479
+Position	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var Position = function Position(line, col) {$/;"	function	line:479
+SourceLocation	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var SourceLocation = function SourceLocation(start, end) {$/;"	function	line:486
+SourceLocation	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var SourceLocation = function SourceLocation(start, end) {$/;"	class	line:486
+SourceLocation	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var SourceLocation = function SourceLocation(start, end) {$/;"	function	line:486
+getLineInfo	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^function getLineInfo(input, offset) {$/;"	function	line:499
+getLineInfo	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^function getLineInfo(input, offset) {$/;"	function	line:499
+State	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var State = function () {$/;"	function	line:512
+State	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  function State() {$/;"	function	line:513
+State.State	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  function State() {$/;"	function	line:513
+init	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  State.prototype.init = function init(options, input) {$/;"	function	line:517
+State	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  }$/;"	class	line:515
+State.init	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  State.prototype.init = function init(options, input) {$/;"	method	line:517
+curPosition	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  State.prototype.curPosition = function curPosition() {$/;"	function	line:626
+State.curPosition	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  State.prototype.curPosition = function curPosition() {$/;"	method	line:626
+clone	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  State.prototype.clone = function clone(skipArrays) {$/;"	function	line:630
+State.clone	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  State.prototype.clone = function clone(skipArrays) {$/;"	method	line:630
+State	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var State = function () {$/;"	function	line:512
+Token	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var Token = function Token(state) {$/;"	function	line:651
+Token	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var Token = function Token(state) {$/;"	class	line:651
+Token	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var Token = function Token(state) {$/;"	function	line:651
+codePointToString	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^function codePointToString(code) {$/;"	function	line:663
+codePointToString	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^function codePointToString(code) {$/;"	function	line:663
+Tokenizer	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var Tokenizer = function () {$/;"	function	line:672
+Tokenizer	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  function Tokenizer(options, input) {$/;"	function	line:673
+Tokenizer.Tokenizer	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  function Tokenizer(options, input) {$/;"	class	line:673
+next	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.next = function next() {$/;"	function	line:682
+Tokenizer	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  }$/;"	class	line:678
+Tokenizer.next	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.next = function next() {$/;"	method	line:682
+eat	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.eat = function eat(type) {$/;"	function	line:696
+Tokenizer.eat	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.eat = function eat(type) {$/;"	method	line:696
+match	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.match = function match(type) {$/;"	function	line:707
+Tokenizer.match	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.match = function match(type) {$/;"	method	line:707
+isKeyword$$1	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.isKeyword = function isKeyword$$1(word) {$/;"	function	line:713
+Tokenizer.isKeyword	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.isKeyword = function isKeyword$$1(word) {$/;"	method	line:713
+lookahead	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.lookahead = function lookahead() {$/;"	function	line:719
+Tokenizer.lookahead	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.lookahead = function lookahead() {$/;"	method	line:719
+setStrict	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.setStrict = function setStrict(strict) {$/;"	function	line:735
+Tokenizer.setStrict	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.setStrict = function setStrict(strict) {$/;"	method	line:735
+curContext	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.curContext = function curContext() {$/;"	function	line:746
+Tokenizer.curContext	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.curContext = function curContext() {$/;"	method	line:746
+nextToken	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.nextToken = function nextToken() {$/;"	function	line:753
+Tokenizer.nextToken	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.nextToken = function nextToken() {$/;"	method	line:753
+Tokenizer	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var Tokenizer = function () {$/;"	function	line:672
+readToken	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readToken = function readToken(code) {$/;"	function	line:770
+Tokenizer.readToken	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readToken = function readToken(code) {$/;"	method	line:770
+fullCharCodeAtPos	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.fullCharCodeAtPos = function fullCharCodeAtPos() {$/;"	function	line:780
+Tokenizer.fullCharCodeAtPos	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.fullCharCodeAtPos = function fullCharCodeAtPos() {$/;"	method	line:780
+pushComment	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.pushComment = function pushComment(block, text, start, end, startLoc, endLoc) {$/;"	function	line:788
+Tokenizer.pushComment	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.pushComment = function pushComment(block, text, start, end, startLoc, endLoc) {$/;"	method	line:788
+Tokenizer.var.comment.type	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^    var comment = {$/;"	property	line:789
+skipBlockComment	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.skipBlockComment = function skipBlockComment() {$/;"	function	line:804
+Tokenizer.skipBlockComment	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.skipBlockComment = function skipBlockComment() {$/;"	method	line:804
+skipLineComment	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.skipLineComment = function skipLineComment(startSkip) {$/;"	function	line:821
+Tokenizer.skipLineComment	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.skipLineComment = function skipLineComment(startSkip) {$/;"	method	line:821
+skipSpace	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.skipSpace = function skipSpace() {$/;"	function	line:836
+Tokenizer.skipSpace	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.skipSpace = function skipSpace() {$/;"	method	line:836
+switch	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^      switch (ch) {$/;"	function	line:839
+finishToken	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.finishToken = function finishToken(type, val) {$/;"	function	line:888
+Tokenizer.finishToken	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.finishToken = function finishToken(type, val) {$/;"	method	line:888
+readToken_dot	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readToken_dot = function readToken_dot() {$/;"	function	line:909
+Tokenizer.readToken_dot	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readToken_dot = function readToken_dot() {$/;"	method	line:909
+readToken_slash	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readToken_slash = function readToken_slash() {$/;"	function	line:926
+Tokenizer.readToken_slash	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readToken_slash = function readToken_slash() {$/;"	method	line:926
+readToken_mult_modulo	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readToken_mult_modulo = function readToken_mult_modulo(code) {$/;"	function	line:941
+Tokenizer.readToken_mult_modulo	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readToken_mult_modulo = function readToken_mult_modulo(code) {$/;"	method	line:941
+readToken_pipe_amp	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readToken_pipe_amp = function readToken_pipe_amp(code) {$/;"	function	line:962
+Tokenizer.readToken_pipe_amp	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readToken_pipe_amp = function readToken_pipe_amp(code) {$/;"	method	line:962
+readToken_caret	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readToken_caret = function readToken_caret() {$/;"	function	line:971
+Tokenizer.readToken_caret	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readToken_caret = function readToken_caret() {$/;"	method	line:971
+readToken_plus_min	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readToken_plus_min = function readToken_plus_min(code) {$/;"	function	line:981
+Tokenizer.readToken_plus_min	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readToken_plus_min = function readToken_plus_min(code) {$/;"	method	line:981
+readToken_lt_gt	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readToken_lt_gt = function readToken_lt_gt(code) {$/;"	function	line:1002
+Tokenizer.readToken_lt_gt	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readToken_lt_gt = function readToken_lt_gt(code) {$/;"	method	line:1002
+readToken_eq_excl	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readToken_eq_excl = function readToken_eq_excl(code) {$/;"	function	line:1029
+Tokenizer.readToken_eq_excl	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readToken_eq_excl = function readToken_eq_excl(code) {$/;"	method	line:1029
+getTokenFromCode	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.getTokenFromCode = function getTokenFromCode(code) {$/;"	function	line:1041
+Tokenizer.getTokenFromCode	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.getTokenFromCode = function getTokenFromCode(code) {$/;"	method	line:1041
+switch	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^    switch (code) {$/;"	function	line:1042
+finishOp	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.finishOp = function finishOp(type, size) {$/;"	function	line:1150
+Tokenizer.finishOp	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.finishOp = function finishOp(type, size) {$/;"	method	line:1150
+readRegexp	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readRegexp = function readRegexp() {$/;"	function	line:1156
+Tokenizer.readRegexp	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readRegexp = function readRegexp() {$/;"	method	line:1156
+readInt	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readInt = function readInt(radix, len) {$/;"	function	line:1199
+Tokenizer.readInt	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readInt = function readInt(radix, len) {$/;"	method	line:1199
+readRadixNumber	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readRadixNumber = function readRadixNumber(radix) {$/;"	function	line:1224
+Tokenizer.readRadixNumber	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readRadixNumber = function readRadixNumber(radix) {$/;"	method	line:1224
+readNumber	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readNumber = function readNumber(startsWithDot) {$/;"	function	line:1234
+Tokenizer.readNumber	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readNumber = function readNumber(startsWithDot) {$/;"	method	line:1234
+readCodePoint	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readCodePoint = function readCodePoint(throwOnInvalid) {$/;"	function	line:1279
+Tokenizer.readCodePoint	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readCodePoint = function readCodePoint(throwOnInvalid) {$/;"	method	line:1279
+readString	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readString = function readString(quote) {$/;"	function	line:1304
+Tokenizer.readString	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readString = function readString(quote) {$/;"	method	line:1304
+readTmplToken	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readTmplToken = function readTmplToken() {$/;"	function	line:1327
+Tokenizer.readTmplToken	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readTmplToken = function readTmplToken() {$/;"	method	line:1327
+switch	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^        switch (ch) {$/;"	function	line:1361
+readEscapedChar	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readEscapedChar = function readEscapedChar(inTemplate) {$/;"	function	line:1382
+Tokenizer.readEscapedChar	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readEscapedChar = function readEscapedChar(inTemplate) {$/;"	method	line:1382
+switch	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^    switch (ch) {$/;"	function	line:1386
+octal	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^          var octal = parseInt(octalStr, 8);$/;"	variable	line:1422
+readHexChar	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readHexChar = function readHexChar(len, throwOnInvalid) {$/;"	function	line:1449
+Tokenizer.readHexChar	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readHexChar = function readHexChar(len, throwOnInvalid) {$/;"	method	line:1449
+readWord1	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readWord1 = function readWord1() {$/;"	function	line:1469
+Tokenizer.readWord1	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readWord1 = function readWord1() {$/;"	method	line:1469
+readWord	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readWord = function readWord() {$/;"	function	line:1509
+Tokenizer.readWord	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.readWord = function readWord() {$/;"	method	line:1509
+braceIsBlock	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.braceIsBlock = function braceIsBlock(prevType) {$/;"	function	line:1518
+Tokenizer.braceIsBlock	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.braceIsBlock = function braceIsBlock(prevType) {$/;"	method	line:1518
+updateContext	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.updateContext = function updateContext(prevType) {$/;"	function	line:1541
+Tokenizer.updateContext	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.updateContext = function updateContext(prevType) {$/;"	method	line:1541
+frozenDeprecatedWildcardPluginList	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var frozenDeprecatedWildcardPluginList = ["jsx", "doExpressions", "objectRestSpread", "decorators", "classProperties", "exportExtensions", "asyncGenerators", "functionBind", "functionSent", "dynamicImport", "flow"];$/;"	variable	line:1558
+Parser	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var Parser = function (_Tokenizer) {$/;"	function	line:1560
+Parser	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  function Parser(options, input) {$/;"	function	line:1563
+Parser.Parser	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  function Parser(options, input) {$/;"	function	line:1563
+isReservedWord	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Parser.prototype.isReservedWord = function isReservedWord(word) {$/;"	function	line:1583
+Parser	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  }$/;"	class	line:1581
+Parser.isReservedWord	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Parser.prototype.isReservedWord = function isReservedWord(word) {$/;"	method	line:1583
+hasPlugin	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Parser.prototype.hasPlugin = function hasPlugin(name) {$/;"	function	line:1591
+Parser.hasPlugin	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Parser.prototype.hasPlugin = function hasPlugin(name) {$/;"	method	line:1591
+extend	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Parser.prototype.extend = function extend(name, f) {$/;"	function	line:1599
+Parser.extend	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Parser.prototype.extend = function extend(name, f) {$/;"	method	line:1599
+loadAllPlugins	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Parser.prototype.loadAllPlugins = function loadAllPlugins() {$/;"	function	line:1603
+Parser.loadAllPlugins	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Parser.prototype.loadAllPlugins = function loadAllPlugins() {$/;"	method	line:1603
+loadPlugins	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Parser.prototype.loadPlugins = function loadPlugins(pluginList) {$/;"	function	line:1618
+Parser.loadPlugins	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Parser.prototype.loadPlugins = function loadPlugins(pluginList) {$/;"	method	line:1618
+Parser	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var Parser = function (_Tokenizer) {$/;"	function	line:1560
+parse	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Parser.prototype.parse = function parse() {$/;"	function	line:1669
+Parser.parse	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Parser.prototype.parse = function parse() {$/;"	method	line:1669
+addExtra	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp.addExtra = function (node, key, val) {$/;"	function	line:1685
+pp.addExtra	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var pp = Parser.prototype;$/;"	function	line:1679
+isRelational	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp.isRelational = function (op) {$/;"	function	line:1694
+pp.isRelational	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:1690
+expectRelational	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp.expectRelational = function (op) {$/;"	function	line:1700
+pp.expectRelational	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:1696
+isContextual	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp.isContextual = function (name) {$/;"	function	line:1710
+pp.isContextual	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:1706
+eatContextual	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp.eatContextual = function (name) {$/;"	function	line:1716
+pp.eatContextual	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:1712
+expectContextual	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp.expectContextual = function (name, message) {$/;"	function	line:1722
+pp.expectContextual	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:1718
+canInsertSemicolon	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp.canInsertSemicolon = function () {$/;"	function	line:1728
+pp.canInsertSemicolon	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:1724
+isLineTerminator	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp.isLineTerminator = function () {$/;"	function	line:1734
+pp.isLineTerminator	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:1730
+semicolon	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp.semicolon = function () {$/;"	function	line:1741
+pp.semicolon	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:1736
+expect	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp.expect = function (type, pos) {$/;"	function	line:1748
+pp.expect	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:1743
+unexpected	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp.unexpected = function (pos) {$/;"	function	line:1755
+pp.unexpected	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:1750
+parseTopLevel	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseTopLevel = function (file, program) {$/;"	function	line:1775
+pp$1.parseTopLevel	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var pp$1 = Parser.prototype;$/;"	class	line:1766
+loopLabel.kind	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var loopLabel = { kind: "loop" };$/;"	property	line:1787
+switchLabel.kind	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var switchLabel = { kind: "switch" };$/;"	property	line:1788
+stmtToDirective	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.stmtToDirective = function (stmt) {$/;"	function	line:1792
+pp$1.stmtToDirective	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var switchLabel = { kind: "switch" };$/;"	class	line:1788
+parseStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseStatement = function (declaration, topLevel) {$/;"	function	line:1816
+switch	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  switch (starttype) {$/;"	function	line:1828
+pp$1.parseStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:1807
+takeDecorators	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.takeDecorators = function (node) {$/;"	function	line:1915
+pp$1.takeDecorators	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:1913
+parseDecorators	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseDecorators = function (allowExport) {$/;"	function	line:1922
+pp$1.parseDecorators	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:1920
+parseDecorator	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseDecorator = function () {$/;"	function	line:1937
+pp$1.parseDecorator	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:1935
+parseBreakContinueStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseBreakContinueStatement = function (node, keyword) {$/;"	function	line:1947
+pp$1.parseBreakContinueStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:1945
+parseDebuggerStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseDebuggerStatement = function (node) {$/;"	function	line:1974
+pp$1.parseDebuggerStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:1972
+parseDoStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseDoStatement = function (node) {$/;"	function	line:1980
+pp$1.parseDoStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:1978
+parseForStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseForStatement = function (node) {$/;"	function	line:1999
+pp$1.parseForStatement.refShorthandDefaultPos.start	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  var refShorthandDefaultPos = { start: 0 };$/;"	property	line:2035
+pp$1.parseForStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:1989
+parseFunctionStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseFunctionStatement = function (node) {$/;"	function	line:2051
+pp$1.parseFunctionStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:2049
+parseIfStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseIfStatement = function (node) {$/;"	function	line:2056
+pp$1.parseIfStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:2054
+parseReturnStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseReturnStatement = function (node) {$/;"	function	line:2064
+pp$1.parseReturnStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:2062
+parseSwitchStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseSwitchStatement = function (node) {$/;"	function	line:2085
+pp$1.parseSwitchStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:2083
+parseThrowStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseThrowStatement = function (node) {$/;"	function	line:2126
+pp$1.parseThrowStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:2124
+empty	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var empty = [];$/;"	variable	line:2136
+parseTryStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseTryStatement = function (node) {$/;"	function	line:2138
+pp$1.parseTryStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var empty = [];$/;"	class	line:2136
+parseVarStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseVarStatement = function (node, kind) {$/;"	function	line:2167
+pp$1.parseVarStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:2165
+parseWhileStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseWhileStatement = function (node) {$/;"	function	line:2174
+pp$1.parseWhileStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:2172
+parseWithStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseWithStatement = function (node) {$/;"	function	line:2183
+pp$1.parseWithStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:2181
+parseEmptyStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseEmptyStatement = function (node) {$/;"	function	line:2191
+pp$1.parseEmptyStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:2189
+parseLabeledStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseLabeledStatement = function (node, maybeName, expr) {$/;"	function	line:2196
+pp$1.parseLabeledStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:2194
+parseExpressionStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseExpressionStatement = function (node, expr) {$/;"	function	line:2234
+pp$1.parseExpressionStatement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:2232
+parseBlock	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseBlock = function (allowDirectives) {$/;"	function	line:2244
+pp$1.parseBlock	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:2238
+isValidDirective	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.isValidDirective = function (stmt) {$/;"	function	line:2251
+pp$1.isValidDirective	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:2249
+parseBlockBody	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseBlockBody = function (node, allowDirectives, topLevel, end) {$/;"	function	line:2255
+pp$1.parseBlockBody	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:2253
+parseFor	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseFor = function (node, init) {$/;"	function	line:2299
+pp$1.parseFor	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:2293
+parseForIn	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseForIn = function (node, init, forAwait) {$/;"	function	line:2314
+pp$1.parseForIn	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:2309
+parseVar	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseVar = function (node, isFor, kind) {$/;"	function	line:2333
+pp$1.parseVar	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:2329
+parseVarHead	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseVarHead = function (decl) {$/;"	function	line:2354
+pp$1.parseVarHead	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:2352
+parseFunction	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseFunction = function (node, isStatement, allowExpressionBody, isAsync, optionalId) {$/;"	function	line:2362
+pp$1.parseFunction	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:2357
+parseFunctionParams	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseFunctionParams = function (node) {$/;"	function	line:2393
+pp$1.parseFunctionParams	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:2391
+parseClass	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseClass = function (node, isStatement, optionalId) {$/;"	function	line:2401
+pp$1.parseClass	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:2396
+isClassProperty	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.isClassProperty = function () {$/;"	function	line:2410
+pp$1.isClassProperty	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:2408
+isClassMethod	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.isClassMethod = function () {$/;"	function	line:2414
+pp$1.isClassMethod	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:2412
+isNonstaticConstructor	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.isNonstaticConstructor = function (method) {$/;"	function	line:2418
+pp$1.isNonstaticConstructor	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:2416
+parseClassBody	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseClassBody = function (node) {$/;"	function	line:2424
+pp$1.parseClassBody	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:2422
+parseClassProperty	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseClassProperty = function (node) {$/;"	function	line:2568
+pp$1.parseClassProperty	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:2566
+parseClassMethod	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseClassMethod = function (classBody, method, isGenerator, isAsync) {$/;"	function	line:2582
+pp$1.parseClassMethod	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:2580
+parseClassId	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseClassId = function (node, isStatement, optionalId) {$/;"	function	line:2587
+pp$1.parseClassId	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:2585
+parseClassSuper	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseClassSuper = function (node) {$/;"	function	line:2599
+pp$1.parseClassSuper	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:2597
+parseExport	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseExport = function (node) {$/;"	function	line:2605
+pp$1.parseExport	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:2601
+parseExportDeclaration	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseExportDeclaration = function () {$/;"	function	line:2665
+pp$1.parseExportDeclaration	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:2663
+isExportDefaultSpecifier	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.isExportDefaultSpecifier = function () {$/;"	function	line:2669
+pp$1.isExportDefaultSpecifier	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:2667
+parseExportSpecifiersMaybe	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseExportSpecifiersMaybe = function (node) {$/;"	function	line:2682
+pp$1.parseExportSpecifiersMaybe	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:2680
+parseExportFrom	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseExportFrom = function (node, expect) {$/;"	function	line:2688
+pp$1.parseExportFrom	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:2686
+shouldParseExportDeclaration	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.shouldParseExportDeclaration = function () {$/;"	function	line:2703
+pp$1.shouldParseExportDeclaration	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:2701
+checkExport	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.checkExport = function (node, checkNames, isDefault) {$/;"	function	line:2707
+pp$1.checkExport	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:2705
+checkDeclaration	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.checkDeclaration = function (node) {$/;"	function	line:2765
+pp$1.checkDeclaration	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:2763
+checkDuplicateExports	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.checkDuplicateExports = function (node, name) {$/;"	function	line:2811
+pp$1.checkDuplicateExports	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:2809
+raiseDuplicateExportError	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.raiseDuplicateExportError = function (node, name) {$/;"	function	line:2818
+pp$1.raiseDuplicateExportError	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:2816
+parseExportSpecifiers	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseExportSpecifiers = function () {$/;"	function	line:2824
+pp$1.parseExportSpecifiers	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:2820
+parseImport	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseImport = function (node) {$/;"	function	line:2859
+pp$1.parseImport	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:2855
+parseImportSpecifiers	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseImportSpecifiers = function (node) {$/;"	function	line:2878
+pp$1.parseImportSpecifiers	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:2874
+parseImportSpecifier	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseImportSpecifier = function (node) {$/;"	function	line:2916
+pp$1.parseImportSpecifier	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:2914
+parseImportSpecifierDefault	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$1.parseImportSpecifierDefault = function (id, startPos, startLoc) {$/;"	function	line:2929
+pp$1.parseImportSpecifierDefault	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:2927
+toAssignable	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$2.toAssignable = function (node, isBinding, contextDescription) {$/;"	function	line:2941
+switch	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^    switch (node.type) {$/;"	function	line:2943
+pp$2.toAssignable	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var pp$2 = Parser.prototype;$/;"	function	line:2936
+toAssignableList	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$2.toAssignableList = function (exprList, isBinding, contextDescription) {$/;"	function	line:3017
+pp$2.toAssignableList	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:3013
+toReferencedList	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$2.toReferencedList = function (exprList) {$/;"	function	line:3042
+pp$2.toReferencedList	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:3038
+parseSpread	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$2.parseSpread = function (refShorthandDefaultPos) {$/;"	function	line:3048
+pp$2.parseSpread	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:3044
+parseRest	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$2.parseRest = function () {$/;"	function	line:3055
+pp$2.parseRest	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:3053
+shouldAllowYieldIdentifier	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$2.shouldAllowYieldIdentifier = function () {$/;"	function	line:3062
+pp$2.shouldAllowYieldIdentifier	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:3060
+parseBindingIdentifier	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$2.parseBindingIdentifier = function () {$/;"	function	line:3066
+pp$2.parseBindingIdentifier	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:3064
+parseBindingAtom	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$2.parseBindingAtom = function () {$/;"	function	line:3072
+switch	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  switch (this.state.type) {$/;"	function	line:3073
+pp$2.parseBindingAtom	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:3068
+parseBindingList	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$2.parseBindingList = function (close, allowEmpty) {$/;"	function	line:3094
+pp$2.parseBindingList	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:3092
+parseAssignableListItemTypes	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$2.parseAssignableListItemTypes = function (param) {$/;"	function	line:3127
+pp$2.parseAssignableListItemTypes	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:3125
+parseMaybeDefault	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$2.parseMaybeDefault = function (startPos, startLoc, left) {$/;"	function	line:3133
+pp$2.parseMaybeDefault	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:3129
+checkLVal	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$2.checkLVal = function (expr, isBinding, checkClashes, contextDescription) {$/;"	function	line:3148
+switch	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  switch (expr.type) {$/;"	function	line:3149
+pp$2.checkLVal	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:3143
+checkPropClash	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.checkPropClash = function (prop, propHash) {$/;"	function	line:3265
+pp$3.checkPropClash	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var pp$3 = Parser.prototype;$/;"	function	line:3258
+getExpression	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.getExpression = function () {$/;"	function	line:3279
+pp$3.getExpression	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:3276
+parseExpression	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseExpression = function (noIn, refShorthandDefaultPos) {$/;"	function	line:3303
+pp$3.parseExpression	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:3286
+parseMaybeAssign	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseMaybeAssign = function (noIn, refShorthandDefaultPos, afterLeftParse, refNeedsArrowPos) {$/;"	function	line:3322
+refShorthandDefaultPos.start	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^    refShorthandDefaultPos = { start: 0 };$/;"	property	line:3336
+pp$3.parseMaybeAssign	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:3317
+parseMaybeConditional	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseMaybeConditional = function (noIn, refShorthandDefaultPos, refNeedsArrowPos) {$/;"	function	line:3378
+pp$3.parseMaybeConditional	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:3374
+parseConditional	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseConditional = function (expr, noIn, startPos, startLoc) {$/;"	function	line:3387
+pp$3.parseConditional	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:3385
+parseExprOps	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseExprOps = function (noIn, refShorthandDefaultPos) {$/;"	function	line:3401
+pp$3.parseExprOps	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:3397
+parseExprOp	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseExprOp = function (left, leftStartPos, leftStartLoc, minPrec, noIn) {$/;"	function	line:3418
+pp$3.parseExprOp	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:3410
+parseMaybeUnary	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseMaybeUnary = function (refShorthandDefaultPos) {$/;"	function	line:3446
+pp$3.parseMaybeUnary	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:3442
+parseExprSubscripts	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseExprSubscripts = function (refShorthandDefaultPos) {$/;"	function	line:3490
+pp$3.parseExprSubscripts	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:3486
+parseSubscripts	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseSubscripts = function (base, startPos, startLoc, noCalls) {$/;"	function	line:3507
+pp$3.parseSubscripts	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:3505
+parseCallExpressionArguments	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseCallExpressionArguments = function (close, possibleAsyncArrow) {$/;"	function	line:3555
+pp$3.parseCallExpressionArguments	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:3553
+shouldParseAsyncArrow	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.shouldParseAsyncArrow = function () {$/;"	function	line:3584
+pp$3.shouldParseAsyncArrow	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:3582
+parseAsyncArrowFromCallExpression	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseAsyncArrowFromCallExpression = function (node, call) {$/;"	function	line:3588
+pp$3.parseAsyncArrowFromCallExpression	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:3586
+parseNoCallExpr	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseNoCallExpr = function () {$/;"	function	line:3595
+pp$3.parseNoCallExpr	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:3591
+parseExprAtom	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseExprAtom = function (refShorthandDefaultPos) {$/;"	function	line:3606
+switch	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  switch (this.state.type) {$/;"	function	line:3610
+pp$3.parseExprAtom	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:3599
+callee	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^      var callee = node.callee = this.parseNoCallExpr();$/;"	variable	line:3742
+parseFunctionExpression	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseFunctionExpression = function () {$/;"	function	line:3754
+pp$3.parseFunctionExpression	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:3752
+parseMetaProperty	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseMetaProperty = function (node, meta, propertyName) {$/;"	function	line:3764
+pp$3.parseMetaProperty	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:3762
+parseLiteral	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseLiteral = function (value, type, startPos, startLoc) {$/;"	function	line:3775
+pp$3.parseLiteral	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:3773
+parseParenExpression	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseParenExpression = function () {$/;"	function	line:3787
+pp$3.parseParenExpression	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:3785
+parseParenAndDistinguishExpression	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseParenAndDistinguishExpression = function (startPos, startLoc, canBeArrow) {$/;"	function	line:3794
+pp$3.parseParenAndDistinguishExpression.refShorthandDefaultPos.start	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  var refShorthandDefaultPos = { start: 0 };$/;"	property	line:3804
+pp$3.parseParenAndDistinguishExpression.refNeedsArrowPos.start	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  var refNeedsArrowPos = { start: 0 };$/;"	property	line:3805
+pp$3.parseParenAndDistinguishExpression	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:3792
+shouldParseArrow	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.shouldParseArrow = function () {$/;"	function	line:3881
+pp$3.shouldParseArrow	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:3879
+parseArrow	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseArrow = function (node) {$/;"	function	line:3885
+pp$3.parseArrow	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:3883
+parseParenItem	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseParenItem = function (node) {$/;"	function	line:3891
+pp$3.parseParenItem	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:3889
+parseNew	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseNew = function () {$/;"	function	line:3899
+pp$3.parseNew	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:3893
+parseTemplateElement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseTemplateElement = function (isTagged) {$/;"	function	line:3927
+elem.value.raw	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  elem.value = {$/;"	property	line:3936
+pp$3.parseTemplateElement	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:3923
+parseTemplate	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseTemplate = function (isTagged) {$/;"	function	line:3945
+pp$3.parseTemplate	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:3943
+parseObj	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseObj = function (isPattern, refShorthandDefaultPos) {$/;"	function	line:3963
+pp$3.parseObj	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:3959
+isGetterOrSetterMethod	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.isGetterOrSetterMethod = function (prop, isPattern) {$/;"	function	line:4069
+pp$3.isGetterOrSetterMethod	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:4067
+checkGetterSetterParamCount	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.checkGetterSetterParamCount = function (method) {$/;"	function	line:4080
+pp$3.checkGetterSetterParamCount	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:4076
+parseObjectMethod	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseObjectMethod = function (prop, isGenerator, isAsync, isPattern) {$/;"	function	line:4092
+pp$3.parseObjectMethod	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:4090
+parseObjectProperty	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseObjectProperty = function (prop, startPos, startLoc, isPattern, refShorthandDefaultPos) {$/;"	function	line:4113
+pp$3.parseObjectProperty	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:4111
+parseObjPropValue	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseObjPropValue = function (prop, startPos, startLoc, isGenerator, isAsync, isPattern, refShorthandDefaultPos) {$/;"	function	line:4139
+pp$3.parseObjPropValue	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:4137
+parsePropertyName	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parsePropertyName = function (prop) {$/;"	function	line:4147
+pp$3.parsePropertyName	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:4145
+initFunction	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.initFunction = function (node, isAsync) {$/;"	function	line:4164
+pp$3.initFunction	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:4160
+parseMethod	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseMethod = function (node, isGenerator, isAsync) {$/;"	function	line:4173
+pp$3.parseMethod	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:4169
+parseArrowExpression	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseArrowExpression = function (node, params, isAsync) {$/;"	function	line:4187
+pp$3.parseArrowExpression	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:4183
+isStrictBody	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.isStrictBody = function (node, isExpression) {$/;"	function	line:4194
+pp$3.isStrictBody	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:4192
+parseFunctionBody	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseFunctionBody = function (node, allowExpression) {$/;"	function	line:4220
+pp$3.parseFunctionBody	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:4217
+parseExprList	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseExprList = function (close, allowEmpty, refShorthandDefaultPos) {$/;"	function	line:4288
+pp$3.parseExprList	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:4280
+parseExprListItem	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseExprListItem = function (allowEmpty, refShorthandDefaultPos, refNeedsArrowPos) {$/;"	function	line:4305
+pp$3.parseExprListItem	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:4303
+parseIdentifier	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseIdentifier = function (liberal) {$/;"	function	line:4321
+pp$3.parseIdentifier	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:4315
+checkReservedWord	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.checkReservedWord = function (word, startLoc, checkKeywords, isBinding) {$/;"	function	line:4345
+pp$3.checkReservedWord	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:4343
+parseAwait	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseAwait = function (node) {$/;"	function	line:4357
+pp$3.parseAwait	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:4353
+parseYield	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$3.parseYield = function () {$/;"	function	line:4371
+pp$3.parseYield	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:4367
+commentKeys	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var commentKeys = ["leadingComments", "trailingComments", "innerComments"];$/;"	variable	line:4387
+Node	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var Node = function () {$/;"	function	line:4389
+Node	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  function Node(pos, loc, filename) {$/;"	function	line:4390
+Node.Node	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  function Node(pos, loc, filename) {$/;"	class	line:4390
+__clone	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Node.prototype.__clone = function __clone() {$/;"	function	line:4400
+Node	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  }$/;"	class	line:4398
+Node.__clone	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  Node.prototype.__clone = function __clone() {$/;"	method	line:4400
+Node	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var Node = function () {$/;"	function	line:4389
+startNode	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$4.startNode = function () {$/;"	function	line:4415
+pp$4.startNode	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^}();$/;"	function	line:4413
+startNodeAt	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$4.startNodeAt = function (pos, loc) {$/;"	function	line:4419
+pp$4.startNodeAt	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:4417
+finishNodeAt	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^function finishNodeAt(node, type, pos, loc) {$/;"	function	line:4423
+finishNodeAt	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^function finishNodeAt(node, type, pos, loc) {$/;"	class	line:4423
+finishNode	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$4.finishNode = function (node, type) {$/;"	function	line:4433
+pp$4.finishNode	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^}$/;"	function	line:4429
+finishNodeAt	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$4.finishNodeAt = function (node, type, pos, loc) {$/;"	function	line:4439
+pp$4.finishNodeAt	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:4435
+raise	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$5.raise = function (pos, message) {$/;"	function	line:4451
+pp$5.raise	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var pp$5 = Parser.prototype;$/;"	function	line:4443
+last	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^function last(stack) {$/;"	function	line:4486
+last	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^function last(stack) {$/;"	function	line:4486
+addComment	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$6.addComment = function (comment) {$/;"	function	line:4492
+pp$6.addComment	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var pp$6 = Parser.prototype;$/;"	class	line:4490
+processComment	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$6.processComment = function (node) {$/;"	function	line:4498
+pp$6.processComment	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:4496
+estreeParseRegExpLiteral	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$7.estreeParseRegExpLiteral = function (_ref) {$/;"	function	line:4663
+node.regex.pattern	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  node.regex = { pattern: pattern, flags: flags };$/;"	property	line:4675
+node.regex.flags	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  node.regex = { pattern: pattern, flags: flags };$/;"	property	line:4675
+pp$7.estreeParseRegExpLiteral	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var pp$7 = Parser.prototype;$/;"	function	line:4661
+estreeParseLiteral	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$7.estreeParseLiteral = function (value) {$/;"	function	line:4680
+pp$7.estreeParseLiteral	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:4678
+directiveToStmt	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$7.directiveToStmt = function (directive) {$/;"	function	line:4684
+pp$7.directiveToStmt	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:4682
+isSimpleProperty	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^function isSimpleProperty(node) {$/;"	function	line:4699
+isSimpleProperty	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^function isSimpleProperty(node) {$/;"	function	line:4699
+estreePlugin	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var estreePlugin = function (instance) {$/;"	function	line:4703
+switch	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^      switch (expr.type) {$/;"	function	line:4732
+switch	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^      switch (this.state.type) {$/;"	function	line:4842
+estreePlugin	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var estreePlugin = function (instance) {$/;"	function	line:4703
+primitiveTypes	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var primitiveTypes = ["any", "mixed", "empty", "bool", "boolean", "number", "string", "void", "null"];$/;"	variable	line:4979
+flowParseTypeInitialiser	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseTypeInitialiser = function (tok) {$/;"	function	line:4983
+pp$8.flowParseTypeInitialiser	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^var pp$8 = Parser.prototype;$/;"	class	line:4981
+flowParsePredicate	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParsePredicate = function () {$/;"	function	line:4993
+pp$8.flowParsePredicate	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:4991
+flowParseTypeAndPredicateInitialiser	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseTypeAndPredicateInitialiser = function () {$/;"	function	line:5013
+pp$8.flowParseTypeAndPredicateInitialiser	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:5011
+flowParseDeclareClass	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseDeclareClass = function (node) {$/;"	function	line:5032
+pp$8.flowParseDeclareClass	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:5030
+flowParseDeclareFunction	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseDeclareFunction = function (node) {$/;"	function	line:5038
+pp$8.flowParseDeclareFunction	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:5036
+flowParseDeclare	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseDeclare = function (node) {$/;"	function	line:5075
+pp$8.flowParseDeclare	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:5073
+flowParseDeclareExportDeclaration	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseDeclareExportDeclaration = function (node) {$/;"	function	line:5101
+pp$8.flowParseDeclareExportDeclaration	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:5099
+flowParseDeclareVariable	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseDeclareVariable = function (node) {$/;"	function	line:5114
+pp$8.flowParseDeclareVariable	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:5112
+flowParseDeclareModule	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseDeclareModule = function (node) {$/;"	function	line:5121
+pp$8.flowParseDeclareModule	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:5119
+flowParseDeclareModuleExports	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseDeclareModuleExports = function (node) {$/;"	function	line:5157
+pp$8.flowParseDeclareModuleExports	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:5155
+flowParseDeclareTypeAlias	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseDeclareTypeAlias = function (node) {$/;"	function	line:5167
+pp$8.flowParseDeclareTypeAlias	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:5165
+flowParseDeclareOpaqueType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseDeclareOpaqueType = function (node) {$/;"	function	line:5173
+pp$8.flowParseDeclareOpaqueType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:5171
+flowParseDeclareInterface	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseDeclareInterface = function (node) {$/;"	function	line:5179
+pp$8.flowParseDeclareInterface	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:5177
+flowParseInterfaceish	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseInterfaceish = function (node) {$/;"	function	line:5187
+pp$8.flowParseInterfaceish	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:5183
+flowParseInterfaceExtends	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseInterfaceExtends = function () {$/;"	function	line:5215
+pp$8.flowParseInterfaceExtends	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:5213
+flowParseInterface	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseInterface = function (node) {$/;"	function	line:5228
+pp$8.flowParseInterface	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:5226
+flowParseRestrictedIdentifier	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseRestrictedIdentifier = function (liberal) {$/;"	function	line:5233
+pp$8.flowParseRestrictedIdentifier	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:5231
+flowParseTypeAlias	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseTypeAlias = function (node) {$/;"	function	line:5243
+pp$8.flowParseTypeAlias	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:5239
+flowParseOpaqueType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseOpaqueType = function (node, declare) {$/;"	function	line:5260
+pp$8.flowParseOpaqueType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:5256
+flowParseTypeParameter	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseTypeParameter = function () {$/;"	function	line:5287
+pp$8.flowParseTypeParameter	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:5283
+flowParseTypeParameterDeclaration	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseTypeParameterDeclaration = function () {$/;"	function	line:5305
+pp$8.flowParseTypeParameterDeclaration	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:5303
+flowParseTypeParameterInstantiation	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseTypeParameterInstantiation = function () {$/;"	function	line:5332
+pp$8.flowParseTypeParameterInstantiation	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:5330
+flowParseObjectPropertyKey	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseObjectPropertyKey = function () {$/;"	function	line:5353
+pp$8.flowParseObjectPropertyKey	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:5351
+flowParseObjectTypeIndexer	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseObjectTypeIndexer = function (node, isStatic, variance) {$/;"	function	line:5357
+pp$8.flowParseObjectTypeIndexer	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:5355
+flowParseObjectTypeMethodish	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseObjectTypeMethodish = function (node) {$/;"	function	line:5376
+pp$8.flowParseObjectTypeMethodish	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:5374
+flowParseObjectTypeMethod	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseObjectTypeMethod = function (startPos, startLoc, isStatic, key) {$/;"	function	line:5402
+pp$8.flowParseObjectTypeMethod	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:5400
+flowParseObjectTypeCallProperty	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseObjectTypeCallProperty = function (node, isStatic) {$/;"	function	line:5412
+pp$8.flowParseObjectTypeCallProperty	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:5410
+flowParseObjectType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseObjectType = function (allowStatic, allowExact, allowSpread) {$/;"	function	line:5420
+pp$8.flowParseObjectType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:5418
+flowObjectTypeSemicolon	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowObjectTypeSemicolon = function () {$/;"	function	line:5514
+pp$8.flowObjectTypeSemicolon	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:5512
+flowParseQualifiedTypeIdentifier	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseQualifiedTypeIdentifier = function (startPos, startLoc, id) {$/;"	function	line:5520
+pp$8.flowParseQualifiedTypeIdentifier	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:5518
+flowParseGenericType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseGenericType = function (startPos, startLoc, id) {$/;"	function	line:5535
+pp$8.flowParseGenericType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:5533
+flowParseTypeofType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseTypeofType = function () {$/;"	function	line:5548
+pp$8.flowParseTypeofType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:5546
+flowParseTupleType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseTupleType = function () {$/;"	function	line:5555
+pp$8.flowParseTupleType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:5553
+flowParseFunctionTypeParam	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseFunctionTypeParam = function () {$/;"	function	line:5569
+pp$8.flowParseFunctionTypeParam	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:5567
+reinterpretTypeAsFunctionTypeParam	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.reinterpretTypeAsFunctionTypeParam = function (type) {$/;"	function	line:5590
+pp$8.reinterpretTypeAsFunctionTypeParam	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:5588
+flowParseFunctionTypeParams	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseFunctionTypeParams = function () {$/;"	function	line:5598
+pp$8.flowParseFunctionTypeParams.ret.params	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  var ret = { params: params, rest: null };$/;"	property	line:5601
+pp$8.flowParseFunctionTypeParams.ret.rest	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  var ret = { params: params, rest: null };$/;"	property	line:5601
+pp$8.flowParseFunctionTypeParams	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:5596
+flowIdentToTypeAnnotation	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowIdentToTypeAnnotation = function (startPos, startLoc, node, id) {$/;"	function	line:5614
+switch	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  switch (id.name) {$/;"	function	line:5615
+pp$8.flowIdentToTypeAnnotation	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:5612
+flowParsePrimaryType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParsePrimaryType = function () {$/;"	function	line:5646
+switch	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^  switch (this.state.type) {$/;"	function	line:5655
+pp$8.flowParsePrimaryType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:5641
+flowParsePostfixType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParsePostfixType = function () {$/;"	function	line:5775
+pp$8.flowParsePostfixType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:5773
+flowParsePrefixType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParsePrefixType = function () {$/;"	function	line:5789
+pp$8.flowParsePrefixType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:5787
+flowParseAnonFunctionWithoutParens	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseAnonFunctionWithoutParens = function () {$/;"	function	line:5799
+pp$8.flowParseAnonFunctionWithoutParens	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	function	line:5797
+flowParseIntersectionType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseIntersectionType = function () {$/;"	function	line:5812
+pp$8.flowParseIntersectionType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^};$/;"	class	line:5810
+flowParseUnionType	/Users/sunshine/bifeitang.github.io/node_modules/babylon/lib/index.js	/^pp$8.flowParseUnionType = function () {$/;"	function	line:5823
+pp$8.flowParseUnionType	/Users/sunshine/bifeitang.github.io/node_modules/baby
