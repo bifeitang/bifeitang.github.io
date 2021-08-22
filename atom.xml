@@ -8,7 +8,70 @@
     <author>
       <name>Yang Hu</name>
     </author>
-    <updated>2021-08-16T03:19:05.968Z</updated>
+    <updated>2021-08-22T09:00:26.000Z</updated>
+    <entry>
+        <id>https://bifeitang.github.io/2021/08/22/My-Interesting-Projects-at-a-Glance/</id>
+        <title>My Interesting Projects at a Glance</title>
+        <link rel="alternate" href="https://bifeitang.github.io/2021/08/22/My-Interesting-Projects-at-a-Glance/"/>
+        <content type="html">&lt;h2 id=&#34;research-project&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#research-project&#34;&gt;#&lt;/a&gt; Research Project&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Exo Skeleton with University of Houston&lt;/li&gt;
+&lt;li&gt;Grid Cell personal interest reseach&lt;br /&gt;
+&lt;a href=&#34;/2021/08/22/IntelligenceAndBrainTheories/Grid-Cell-and-Conceptual-Learning/&#34; title=&#34;Grid Cell and Conceptual Learning&#34;&gt;Grid Cell and Conceptual Learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Reinforcement Learning&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <updated>2021-08-22T09:00:26.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://bifeitang.github.io/2021/08/22/IntelligenceAndBrainTheories/Grid-Cell-and-Conceptual-Learning/</id>
+        <title>Grid Cell and Conceptual Learning</title>
+        <link rel="alternate" href="https://bifeitang.github.io/2021/08/22/IntelligenceAndBrainTheories/Grid-Cell-and-Conceptual-Learning/"/>
+        <content type="html">&lt;p&gt;
+
+	&lt;div class=&#34;row&#34;&gt;
+    &lt;embed src=&#34;./Grid_cell_and_conceptual_memory_study.pdf&#34; width=&#34;100%&#34; height=&#34;550&#34; type=&#34;application/pdf&#34;&gt;
+	&lt;/div&gt;
+
+
+&lt;/p&gt;
+</content>
+        <category term="Intelligence and Brain Theories" scheme="https://bifeitang.github.io/categories/IntelligenceAndBrainTheories/" />
+        <category term="Grid Cell" scheme="https://bifeitang.github.io/tags/Grid-Cell/" />
+        <category term="Conceptual Learning" scheme="https://bifeitang.github.io/tags/Conceptual-Learning/" />
+        <category term="Memory" scheme="https://bifeitang.github.io/tags/Memory/" />
+        <category term="fMRI" scheme="https://bifeitang.github.io/tags/fMRI/" />
+        <updated>2021-08-22T08:40:07.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://bifeitang.github.io/2021/08/22/ReinforcementLearning/Defeat-MITM-attack-with-Reinforcement-Learning/</id>
+        <title>Defeat MITM attack with Reinforcement Learning</title>
+        <link rel="alternate" href="https://bifeitang.github.io/2021/08/22/ReinforcementLearning/Defeat-MITM-attack-with-Reinforcement-Learning/"/>
+        <content type="html">&lt;p&gt;Add another line&lt;/p&gt;
+&lt;h2 id=&#34;report&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#report&#34;&gt;#&lt;/a&gt; Report&lt;/h2&gt;
+&lt;p&gt;
+
+	&lt;div class=&#34;row&#34;&gt;
+    &lt;embed src=&#34;./RL_final_report.pdf&#34; width=&#34;100%&#34; height=&#34;550&#34; type=&#34;application/pdf&#34;&gt;
+	&lt;/div&gt;
+
+
+&lt;/p&gt;
+&lt;h2 id=&#34;supplementary&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#supplementary&#34;&gt;#&lt;/a&gt; Supplementary&lt;/h2&gt;
+&lt;p&gt;
+
+	&lt;div class=&#34;row&#34;&gt;
+    &lt;embed src=&#34;./suppmaterial.pdf&#34; width=&#34;100%&#34; height=&#34;550&#34; type=&#34;application/pdf&#34;&gt;
+	&lt;/div&gt;
+
+
+&lt;/p&gt;
+</content>
+        <category term="Reinforcement Learning" scheme="https://bifeitang.github.io/categories/ReinforcementLearning/" />
+        <category term="Reinforcement Learning" scheme="https://bifeitang.github.io/tags/Reinforcement-Learning/" />
+        <updated>2021-08-22T07:59:39.000Z</updated>
+    </entry>
     <entry>
         <id>https://bifeitang.github.io/2021/08/15/ExoSkeleton/StateMachine/</id>
         <title></title>
@@ -1195,73 +1258,6 @@ Binary file, stl, open command and run the bin file&lt;/label&gt;&lt;/li&gt;
         <content type="html">&lt;p&gt;Kinds of hard to believe I start posting again after my blog has been dormented for so long.&lt;/p&gt;
 &lt;p&gt;The motivation comes from figuring out what really interest me – brain study.&lt;/p&gt;
 </content>
-        <updated>2020-10-25T07:37:30.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://bifeitang.github.io/2020/10/25/ComputationalNeuroscience/Week1/</id>
-        <title>What do Neurons Encode? Neural Encoding Models (Adrienne Fairhall)</title>
-        <link rel="alternate" href="https://bifeitang.github.io/2020/10/25/ComputationalNeuroscience/Week1/"/>
-        <content type="html">&lt;p&gt;Week2&lt;/p&gt;
-</content>
-        <category term="Computational Neuroscience" scheme="https://bifeitang.github.io/categories/ComputationalNeuroscience/" />
-        <category term="ComputationalNeuroscience" scheme="https://bifeitang.github.io/tags/ComputationalNeuroscience/" />
-        <updated>2020-10-25T07:37:30.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://bifeitang.github.io/2020/10/25/ComputationalNeuroscience/Week2/</id>
-        <title>Introduction &amp; Basic Neurobiology (Rajesh Rao)</title>
-        <link rel="alternate" href="https://bifeitang.github.io/2020/10/25/ComputationalNeuroscience/Week2/"/>
-        <content type="html">&lt;p&gt;Week1&lt;br /&gt;
-What do Neurons Encode? Neural Encoding Models (Adrienne Fairhall)&lt;/p&gt;
-</content>
-        <category term="Computational Neuroscience" scheme="https://bifeitang.github.io/categories/ComputationalNeuroscience/" />
-        <category term="ComputationalNeuroscience" scheme="https://bifeitang.github.io/tags/ComputationalNeuroscience/" />
-        <updated>2020-10-25T07:37:30.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://bifeitang.github.io/2020/10/25/ExoSkeleton/Environment%20Setup/</id>
-        <title>Environment Setup</title>
-        <link rel="alternate" href="https://bifeitang.github.io/2020/10/25/ExoSkeleton/Environment%20Setup/"/>
-        <content type="html">&lt;h2 id=&#34;environment-setup&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#environment-setup&#34;&gt;#&lt;/a&gt; Environment Setup&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Pre-requisit&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Download  &lt;code&gt;HalCoGen&lt;/code&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cudGkuY29tL3Rvb2wvSEFMQ09HRU4=&#34;&gt;https://www.ti.com/tool/HALCOGEN&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Download and install  &lt;code&gt;Code Composer Studio&lt;/code&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cudGkuY29tL3Rvb2wvQ0NTVFVESU8=&#34;&gt;https://www.ti.com/tool/CCSTUDIO&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Configure the HalCoGen&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210326171445660.png&#34; alt=&#34;image-20210326171445660&#34; /&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210326171925351.png&#34; alt=&#34;image-20210326171925351&#34; /&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Configuration&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210326172044134.png&#34; alt=&#34;image-20210326172044134&#34; /&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Verify&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210326172543938.png&#34; alt=&#34;image-20210326172543938&#34; /&gt;&lt;/p&gt;
-</content>
-        <category term="Exo Skeleton" scheme="https://bifeitang.github.io/categories/ExoSkeleton/" />
-        <category term="Exo Skeleton" scheme="https://bifeitang.github.io/tags/Exo-Skeleton/" />
         <updated>2020-10-25T07:37:30.000Z</updated>
     </entry>
 </feed>
