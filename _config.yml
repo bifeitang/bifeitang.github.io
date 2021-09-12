@@ -70,9 +70,11 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map: # edit for Theme.shoka
-  Computational Neuroscience: ComputationalNeuroscience
+  fMRI: fMRI
+  EEG: EEG
   Exo Skeleton: ExoSkeleton
   Reinforcement Learning: ReinforcementLearning
+  Computational Neuroscience: ComputationalNeuroscience
   Intelligence and Brain Theories: IntelligenceAndBrainTheories
 tag_map:
 

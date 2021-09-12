@@ -1,8 +1,16 @@
+---
+title: Migration Note 10_21_2020 (Questions To Ask)
+date: 2020-10-21 02:37:30
+tags: Exo Skeleton, FreeRTOS
+categories:
+- [Exo Skeleton]
+---
+
 ## Enviornment 
 
 > **Q1**: How fundimentally the two adds-on are different?
 
-![image-20201214013454316](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201214013454316.png)
+![image-20201214013454316](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201214013454316.png)
 
 - Matlab
 
@@ -29,17 +37,17 @@
 ![image-20201214014418829](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201214014418829.png)
 
 - Running in CCS
-  ![image-20201214014625695](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201214014625695.png)
+  ![image-20201214014625695](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201214014625695.png)
 
 
-  ![image-20201214014915756](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201214014915756.png)
+  ![image-20201214014915756](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201214014915756.png)
 
   > I am not using `printf` here sinc I had some issue with configuration of section `.cio` for file `HL_sys_link.cmd`, it would  be good if there's any insight. 
 
 - Same code running in Simulink
 
   - Simulink Model
-    ![image-20201214015247520](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201214015247520.png)
+    ![image-20201214015247520](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201214015247520.png)
 
   - Following is what's inside of the code block
 
@@ -73,5 +81,5 @@
 
 **Note that the CANWrite works with no problem like following.**
 
-![image-20201214020304346](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201214020304346.png)
+![image-20201214020304346](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201214020304346.png)
 

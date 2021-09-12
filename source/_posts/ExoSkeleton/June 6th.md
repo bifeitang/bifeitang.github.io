@@ -1,3 +1,11 @@
+---
+title: Migration Note 06_06_2021
+date: 2021-06-06 02:37:30
+tags: Exo Skeleton, FreeRTOS
+categories:
+- [Exo Skeleton]
+---
+
 ## Joint can't communicate with Hercules
 
 - ```c
@@ -34,7 +42,7 @@
 
     - Confirmed the bit rate is 250kb/s
 
-      - ![image-20210606214742664](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20210606214742664.png)
+      - ![image-20210606214742664](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20210606214742664.png)
 
     - Try change the heart beat frequency from 20ms to 2s 
 

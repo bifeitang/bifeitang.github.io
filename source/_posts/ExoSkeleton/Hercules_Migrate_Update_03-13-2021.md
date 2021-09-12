@@ -1,3 +1,11 @@
+---
+title: Migration Note 03_13_2021
+date: 2021-03-13 02:37:30
+tags: Exo Skeleton, FreeRTOS
+categories:
+- [Exo Skeleton]
+---
+
 ## Hercules_Migrate_Update_03-13-2021
 
 #### Task creation in another task

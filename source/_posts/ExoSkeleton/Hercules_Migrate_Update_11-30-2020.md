@@ -1,3 +1,11 @@
+---
+title: Migration Note 11_30_2020
+date: 2020-11-30 02:37:30
+tags: Exo Skeleton, FreeRTOS
+categories:
+- [Exo Skeleton]
+---
+
 ## CAN communication between Teensy and Hercules
 
 - [CAN Prototyping with Teensy 3.1/3.2](https://copperhilltech.com/blog/controller-area-network-can-prototyping-with-teensy-3132/)

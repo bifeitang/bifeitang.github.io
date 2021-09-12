@@ -1,21 +1,27 @@
-- [ ] Ask about UH software
+---
+title: Migration Note 11_15_2020
+date: 2020-11-15 02:37:30
+tags: Exo Skeleton, FreeRTOS
+categories:
+- [Exo Skeleton]
+---
 
 ## CAN communication between Teensy and Hercules
 
 - [CAN Prototyping with Teensy 3.1/3.2](https://copperhilltech.com/blog/controller-area-network-can-prototyping-with-teensy-3132/)
 
   - In case of working with the CAN port, you will need a CAN transceiver in order to connect the board to a real CAN bus network. The best choice for adding a CAN transceiver, in terms of size and electrical compatibility, is the [CAN Bus Mini Breakout Board](http://copperhilltech.com/can-bus-mini-breakout-board/) we offer through this website.
-  - ![image-20201114174628529](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201114174628529.png)
-  - ![image-20201114174729789](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201114174729789.png)
+  - ![image-20201114174628529](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201114174628529.png)
+  - ![image-20201114174729789](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201114174729789.png)
 
 - Teensy: 
 
 - Able to read data from Teensy Can bus
 
-  - ![image-20201114182837644](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201114182837644.png)
-  - ![image-20201114183009690](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201114183009690.png)
+  - ![image-20201114182837644](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201114182837644.png)
+  - ![image-20201114183009690](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201114183009690.png)
 
-  - ![image-20201114184659352](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201114184659352.png)
+  - ![image-20201114184659352](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201114184659352.png)
 
 - Connect Hercules to the CAN bus
 
@@ -23,22 +29,22 @@
   
   - Install Code Composer Studio
   
-  - ![image-20201115005749530](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201115005749530.png)
+  - ![image-20201115005749530](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201115005749530.png)
   
   - Configure DCAN_TX, DCAN_RX
   
-    ![image-20201115233805328](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201115233805328.png)
+    ![image-20201115233805328](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201115233805328.png)
   
   - Follow the tutorial and write code 
   
 - Figure out the DCAN1 Pin
 
   - https://www.ti.com/lit/df/sprr397/sprr397.pdf?ts=1605496271087
-  - ![image-20201115234025988](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201115234025988.png)
+  - ![image-20201115234025988](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201115234025988.png)
     - I was thinking maybe the pin is multiplexed to here
     - But wasn't able to find corresponding CAN1
   - So looks like J10 44/45 are the pin I should use. And I have solder pin connecter to it.
-    ![image-20201115235233243](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201115235233243.png)
+    ![image-20201115235233243](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201115235233243.png)
 
 - Set up CAN TX
 
@@ -122,17 +128,17 @@
     
     ```
 
-  - ![image-20201120224019913](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201120224019913.png)
+  - ![image-20201120224019913](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201120224019913.png)
 
-  - ![image-20201120224129579](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201120224129579.png)
+  - ![image-20201120224129579](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201120224129579.png)
 
-  - ![image-20201120224157852](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201120224157852.png)
+  - ![image-20201120224157852](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201120224157852.png)
 
 - Set up CAN RX
 
-  - ![image-20201120234019661](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201120234019661.png)
+  - ![image-20201120234019661](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201120234019661.png)
 
-  - ![image-20201120234038976](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201120234038976.png)
+  - ![image-20201120234038976](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201120234038976.png)
 
   - Code
 
@@ -178,7 +184,7 @@
   }
   ```
 
-  ![image-20201120234921668](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201120234921668.png)
+  ![image-20201120234921668](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201120234921668.png)
 
 - Set up the test coverage and add a unit test badge
 - Next Steps
@@ -188,7 +194,7 @@
     - Receive and send out the message
     - Focus on the can receive
     - CAN_Not_available
-  - ![image-20201121111506761](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201121111506761.png)
+  - ![image-20201121111506761](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201121111506761.png)
     
 
 
@@ -207,25 +213,25 @@
   - Code composer with specific version of code generation tools compiler installed
 
 - Install Cortex-R adds-on
-  ![image-20201128150811124](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201128150811124.png)
+  ![image-20201128150811124](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201128150811124.png)
 
   - The package toolchain may be outdated, the latest code composer version is v10, but only v5 and v6 are present.
-    ![image-20201128151129927](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201128151129927.png)
+    ![image-20201128151129927](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201128151129927.png)
 
   - Make sure the version matches
-    ![image-20201128151213973](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201128151213973.png)
+    ![image-20201128151213973](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201128151213973.png)
 
   - Looks like ccsv6 has different file structure comparing with ccsv10. So installed ccsv6. 
 
-    ![image-20201128152234251](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201128152234251.png)
+    ![image-20201128152234251](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201128152234251.png)
     ![image-20201128161503273](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201128161503273.png)
 
-    This works![image-20201128161532729](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201128161532729.png)
-    ![image-20201128161816355](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201128161816355.png)
+    This works![image-20201128161532729](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201128161532729.png)
+    ![image-20201128161816355](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201128161816355.png)
     ![image-20201128161825513](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201128161825513.png)
 
-    ![image-20201128161857315](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201128161857315.png)
-    ![image-20201128161914373](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201128161914373.png)
+    ![image-20201128161857315](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201128161857315.png)
+    ![image-20201128161914373](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201128161914373.png)
 
 
 
@@ -233,17 +239,17 @@
 
 - Remember to switch the directory
 
-<img src="C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201128174747736.png" alt="image-20201128174747736" style="zoom:100%;" />
+<img src="https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201128174747736.png" alt="image-20201128174747736" style="zoom:100%;" />
 
 - Change the directory from ***C:\Program Files\Polyspace\R2020a\bin*** to your own drive
-  ![image-20201128175033477](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201128175033477.png)
+  ![image-20201128175033477](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201128175033477.png)
 
 
 
 - Second bug is I used `&` in my folder name which confused the compiler.
 
 - Eventually I am able to deploy and build
-  ![image-20201128183655265](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201128183655265.png)
+  ![image-20201128183655265](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201128183655265.png)
 
   But there's no command window pop up as stated in the example
 
@@ -255,7 +261,7 @@
   >
   >Component:Simulink | Category:Block diagram warning
   - **Can't connect to hardware board**
-    ![image-20201129140320119](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201129140320119.png)
+    ![image-20201129140320119](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201129140320119.png)
     - Followed the question here https://www.mathworks.com/matlabcentral/answers/622373-embedded-coder-for-arm-cortex-r-processors-hercules-tms570lc43x
   - 
 

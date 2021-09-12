@@ -1,14 +1,22 @@
+---
+title: Migration Note 12_09_2020
+date: 2020-12-09 02:37:30
+tags: Exo Skeleton, FreeRTOS
+categories:
+- [Exo Skeleton]
+---
+
 According to the instruction https://www.ti.com/lit/an/spna237/spna237.pdf?ts=1607497080672&ref_url=https%253A%252F%252Fwww.google.com%252F
 
 
 
-![image-20201209010536090](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201209010536090.png)
+![image-20201209010536090](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201209010536090.png)
 
 
 
-![image-20201209010625937](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201209010625937.png)
+![image-20201209010625937](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201209010625937.png)
 
-![image-20201209011013043](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201209011013043.png)
+![image-20201209011013043](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201209011013043.png)
 
 
 

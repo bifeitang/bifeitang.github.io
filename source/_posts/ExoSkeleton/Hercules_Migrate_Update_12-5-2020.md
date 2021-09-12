@@ -1,9 +1,17 @@
+---
+title: Migration Note 12_05_2020
+date: 2021-01-17 02:37:30
+tags: Exo Skeleton, FreeRTOS
+categories:
+- [Exo Skeleton]
+---
+
 #### To figure out
 
 - [x] Why it doesn't work previously
-  - Only Digital Read and write through pin GIOB_4 and GIOB_6 is supported![image-20201205162257701](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201205162257701.png)
+  - Only Digital Read and write through pin GIOB_4 and GIOB_6 is supported![image-20201205162257701](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201205162257701.png)
   - For CAN communication, it's not enough
-    ![image-20201205162523032](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201205162523032.png)
+    ![image-20201205162523032](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201205162523032.png)
   - ==Wonder how to generate similar block for CAN bus==
 
 - [ ] How builder/launcher/etc methods work
@@ -20,7 +28,7 @@
 ### Pre-Requisite
 
 - [ ] Cortex-R4F MCUs
-  ![image-20201205150154490](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201205150154490.png)
+  ![image-20201205150154490](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201205150154490.png)
 
 
 
@@ -76,7 +84,7 @@ Main thing is adding HalCoGen sources `addHalCoGenSources` and `addRTIOStreamSou
 Look at `Launcher.m`, it uses `loadti` which comes with Code Composer as a debug server scripting. 
 
 - [x] Change `tconf`, make it point to new `RM57L8xx.ccxml`. This file can be got from Code Composer `targetConfigs`. 
-  ![image-20201205232557405](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201205232557405.png)
+  ![image-20201205232557405](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201205232557405.png)
 
   One can test the usability of this file by launch and try connect the the target. 
 

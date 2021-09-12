@@ -1,3 +1,11 @@
+---
+title: Migration Note 07_23_2021
+date: 2021-01-17 02:37:30
+tags: Exo Skeleton, FreeRTOS
+categories:
+- [Exo Skeleton]
+---
+
 ## Heartbeat from Hercules to Teensy
 
 - Heartbeat Task design
@@ -47,11 +55,11 @@
 
 - Screenshot
 
-  ![image-20210723010627617](C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20210723010627617.png)
+  ![image-20210723010627617](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20210723010627617.png)
 
 - Please find gif from attachment
 
-![HerculesHearBeatResponseSingleNode](C:\Users\kydn8\Desktop\HerculesHearBeatResponseSingleNode.gif)
+![HerculesHearBeatResponseSingleNode](https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/HerculesHearBeatResponseSingleNode.gif)
 
 
 

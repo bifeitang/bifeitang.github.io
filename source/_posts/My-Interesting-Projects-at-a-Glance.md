@@ -2,7 +2,7 @@
 title: My Interesting Projects at a Glance
 date: 2021-08-22 04:00:26
 sticky: true
-cover: https://design-milk.com/images/2016/01/up_the_wall_shelves-Bent-Hansen-Studio-1.jpg
+cover: https://quotefancy.com/media/wallpaper/3840x2160/2054748-Isaac-Asimov-Quote-There-is-as-yet-insufficient-data-for-a.jpg
 tags:
 ---
 ## Research Project

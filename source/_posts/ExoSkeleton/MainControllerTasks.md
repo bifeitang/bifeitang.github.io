@@ -1,3 +1,10 @@
+---
+title: Main Controller Tasks Design
+date: 2021-05-21 02:37:30
+tags: Exo Skeleton, FreeRTOS
+categories:
+- [Exo Skeleton]
+---
 
 
 ## Main Controller Tasks
@@ -13,7 +20,7 @@
 
 ## Main Controller UI
 
-<img src="C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20210208174357523.png" alt="image-20210208174357523" style="zoom:70%;" />
+<img src="https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20210208174357523.png" alt="image-20210208174357523" style="zoom:70%;" />
 
 - Send command to main controller
   - More exploration (USB) 

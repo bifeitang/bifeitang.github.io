@@ -3,6 +3,8 @@ title: fMRI Data Processing Basics
 date: 2021-08-24 23:52:20
 tags: [fMRI, HRF]
 math: true
+categories:
+- [fMRI]
 ---
 
 # Resources
