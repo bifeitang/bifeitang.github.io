@@ -49,6 +49,51 @@
             <category term="EEG" scheme="https://bifeitang.github.io/tags/EEG/" />
             <pubDate>Mon, 06 Sep 2021 19:00:14 -0500</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;img data-src=&#34;https://eeglab.org/assets/images/tutorial_image.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;basics-about-eeg-data&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#basics-about-eeg-data&#34;&gt;#&lt;/a&gt; Basics about EEG data&lt;/h2&gt;
+&lt;p&gt;EEG Waveforms display a rhythmic pattern. According to different types of activity human perform, the waveform falls into distinct rhythms of frequency range as following.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Type&lt;/th&gt;
+&lt;th&gt;Frequency&lt;/th&gt;
+&lt;th&gt;Activity&lt;/th&gt;
+&lt;th&gt;Location&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Gamma&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;20 - 60 Hz&lt;/td&gt;
+&lt;td&gt;Visual Attention&lt;/td&gt;
+&lt;td&gt;Occipital&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Beta&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;14 - 20 Hz&lt;/td&gt;
+&lt;td&gt;Mental Activity&lt;/td&gt;
+&lt;td&gt;Parietal and frontal&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Alpha&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;8 - 13 Hz&lt;/td&gt;
+&lt;td&gt;Sensory Stimulation&lt;/td&gt;
+&lt;td&gt;Occipital and parietal&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Theta&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;4 - 8 Hz&lt;/td&gt;
+&lt;td&gt;Emotional Stress&lt;/td&gt;
+&lt;td&gt;Temporal and parietal&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Delta&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Less than 4 Hz&lt;/td&gt;
+&lt;td&gt;Occur during sleep, coma&lt;/td&gt;
+&lt;td&gt;Everywhere&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;mark&gt;Why the naming of frequency ranges dose not follow the order of alphabetic order?&lt;/mark&gt;&lt;/p&gt;
 &lt;h2 id=&#34;eeg-data-preprocessing&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#eeg-data-preprocessing&#34;&gt;#&lt;/a&gt; EEG Data Preprocessing&lt;/h2&gt;
 &lt;p&gt;To make sense of EEG data from its raw value, we need to extract meaningful information from it.&lt;/p&gt;
 &lt;p&gt;Following are commonly used tools&lt;/p&gt;
@@ -56,6 +101,7 @@
 &lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zY2NuLnVjc2QuZWR1L2VlZ2xhYi9pbmRleC5waHA=&#34;&gt;EEGLAB&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9tbmUudG9vbHMvc3RhYmxlL2luZGV4Lmh0bWw=&#34;&gt;Python-EEG: MNE-Python&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;The order for processing steps changes differently from article to article.&lt;/p&gt;
 &lt;h3 id=&#34;1-import-event-markers-and-channel-locations&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-import-event-markers-and-channel-locations&#34;&gt;#&lt;/a&gt; 1. &lt;strong&gt;Import event markers and channel locations&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;When load EEG data with EEGLAB, it will display name and value for each channel. But it doesn&#39;t know the scalp locations of the recording electrodes. EEGLAB can read channel labels and correlate with channels locations in a default database of 385 defined channels labels, which is  &lt;code&gt;standard-10-5-cap385&lt;/code&gt; .&lt;/p&gt;
 &lt;h3 id=&#34;2-remove-irrelevant-channels&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2-remove-irrelevant-channels&#34;&gt;#&lt;/a&gt; 2. &lt;strong&gt;Remove irrelevant channels&lt;/strong&gt;&lt;/h3&gt;
@@ -82,15 +128,37 @@
 &lt;/ul&gt;
 &lt;p&gt;Traditional way for baseline correction is subtracting the mean of a baseline period from every time point of the baseline and post-stimulus interval.&lt;/p&gt;
 &lt;h3 id=&#34;6-re-referencing&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#6-re-referencing&#34;&gt;#&lt;/a&gt; 6. Re-referencing&lt;/h3&gt;
+&lt;p&gt;EEG recordings are collected by measuring the potential differences between current electrode and the reference electrode. The recording has following characters&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Reference voltage&lt;/code&gt;  can be a combination of electrodes.&lt;/li&gt;
+&lt;li&gt;Other electrodes will reflect the change at reference electrodes.&lt;/li&gt;
+&lt;li&gt;The chosen of EEG reference will greatly impact the data&lt;br /&gt;
+e.g. &lt;em&gt;Picture taken from&lt;/em&gt; &lt;em&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL21hcnRpbm9zLm9yZy9tbmUvc3RhYmxlL2F1dG9fZXhhbXBsZXMvcHJlcHJvY2Vzc2luZy9wbG90X3JlcmVmZXJlbmNlX2VlZy5odG1sI3NwaHgtZ2xyLWF1dG8tZXhhbXBsZXMtcHJlcHJvY2Vzc2luZy1wbG90LXJlcmVmZXJlbmNlLWVlZy1weQ==&#34;&gt;http://martinos.org/mne/stable/auto_examples/preprocessing/plot_rereference_eeg.html#sphx-glr-auto-examples-preprocessing-plot-rereference-eeg-py&lt;/span&gt; &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2xlYXJuLm5ldXJvdGVjaGVkdS5jb20vcHJlcHJvY2Vzc2luZy8jcmVmZXJlbmNlcw==&#34;&gt;(15)&lt;/span&gt;&lt;/em&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/different-references.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The re-referencing formula can be&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;V&lt;/mi&gt;&lt;mrow&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;u&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;V&lt;/mi&gt;&lt;mrow&gt;&lt;mi&gt;p&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;v&lt;/mi&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;V&lt;/mi&gt;&lt;mrow&gt;&lt;mi&gt;p&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;v&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;V&lt;/mi&gt;&lt;mrow&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;u&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;V_{curchan} = V_{prevchan} + V_{prevref} - V_{curref}
+&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.83333em;vertical-align:-0.15em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.22222em;&#34;&gt;V&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.33610799999999996em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;u&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.02778em;&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;h&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;n&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.969438em;vertical-align:-0.286108em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.22222em;&#34;&gt;V&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.3361079999999999em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.02778em;&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.03588em;&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;h&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;n&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.286108em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.969438em;vertical-align:-0.286108em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.22222em;&#34;&gt;V&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.3361079999999999em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.02778em;&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.03588em;&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.02778em;&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.10764em;&#34;&gt;f&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.286108em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.969438em;vertical-align:-0.286108em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.22222em;&#34;&gt;V&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.3361079999999999em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;u&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.02778em;&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.02778em;&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.10764em;&#34;&gt;f&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.286108em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;h3 id=&#34;7-downsampling&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#7-downsampling&#34;&gt;#&lt;/a&gt; 7. Downsampling&lt;/h3&gt;
+&lt;p&gt;Downsampling is used to reduce the amount of data while maintaining the information needed.&lt;/p&gt;
+&lt;p&gt;There&#39;s two points to pay attention&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Downsampling should happens after filtering&lt;/strong&gt;, since it will cause the loss or distortion of high frequency information. To ensure the interested signal is not distorted, it is better to filter it out before downsampling.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nyquist–Shannon sampling theorem&lt;/strong&gt; Sampling rate &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;f_s&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8888799999999999em;vertical-align:-0.19444em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.10764em;&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.151392em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:-0.10764em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;s&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;​ should at least be twice of the bandwidth we are interested. &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;/msub&gt;&lt;mo&gt;&amp;gt;&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mi&gt;B&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;f_s &amp;gt; 2B&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8888799999999999em;vertical-align:-0.19444em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.10764em;&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.151392em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:-0.10764em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;s&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.68333em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.05017em;&#34;&gt;B&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;​ E.g. The samples of two sine waves can be identical when at least one of them is at a frequency above half the sample rate. The suggested &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;f_s&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8888799999999999em;vertical-align:-0.19444em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.10764em;&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.151392em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:-0.10764em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;s&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;​ is 3rd or 4th times of the bandwidth interested.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h3 id=&#34;8-interpolation&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#8-interpolation&#34;&gt;#&lt;/a&gt; 8. Interpolation&lt;/h3&gt;
-&lt;h3 id=&#34;9-ica-independent-component-analysis&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#9-ica-independent-component-analysis&#34;&gt;#&lt;/a&gt; 9. ICA (Independent Component Analysis)&lt;/h3&gt;
+&lt;h3 id=&#34;9-artifacts-removal&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#9-artifacts-removal&#34;&gt;#&lt;/a&gt; 9. Artifacts Removal&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Type of artifacts&lt;/strong&gt;: Ocular Artifacts, Muscle Artifacts, Cardiac Artifacts, Extrinsic Artifacts&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;10-remove-bad-segmentation&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#10-remove-bad-segmentation&#34;&gt;#&lt;/a&gt; 10. Remove bad segmentation&lt;/h3&gt;
 &lt;h2 id=&#34;reference&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#reference&#34;&gt;#&lt;/a&gt; Reference&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9lZWdsYWIub3JnL3R1dG9yaWFscy8=&#34;&gt;https://eeglab.org/tutorials/&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2xlYXJuLm5ldXJvdGVjaGVkdS5jb20vcHJlcHJvY2Vzc2luZy8=&#34;&gt;http://learn.neurotechedu.com/preprocessing/&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9uZXVyby5pbmYudW5pYmUuY2gvQWxnb3JpdGhtc05ldXJvc2NpZW5jZS9UdXRvcmlhbF9maWxlcy9JbnRyb2R1Y3Rpb24uaHRtbA==&#34;&gt;https://neuro.inf.unibe.ch/AlgorithmsNeuroscience/Tutorial_files/Introduction.html&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9wcmVzc3JlbGVhc2UuYnJhaW5wcm9kdWN0cy5jb20vcmVmZXJlbmNpbmcv&#34;&gt;https://pressrelease.brainproducts.com/referencing/&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
  ]]></description>
         </item>
@@ -457,7 +525,7 @@
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Q1&lt;/strong&gt;: How fundimentally the two adds-on are different?&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201214013454316.png&#34; alt=&#34;image-20201214013454316&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201214013454316.png&#34; alt=&#34;image-20201214013454316&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Matlab&lt;/p&gt;
@@ -488,8 +556,8 @@
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Running in CCS&lt;br /&gt;
-&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201214014625695.png&#34; alt=&#34;image-20201214014625695&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201214014915756.png&#34; alt=&#34;image-20201214014915756&#34; /&gt;&lt;/p&gt;
+&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201214014625695.png&#34; alt=&#34;image-20201214014625695&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201214014915756.png&#34; alt=&#34;image-20201214014915756&#34; /&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;I am not using  &lt;code&gt;printf&lt;/code&gt;  here sinc I had some issue with configuration of section  &lt;code&gt;.cio&lt;/code&gt;  for file  &lt;code&gt;HL_sys_link.cmd&lt;/code&gt; , it would  be good if there&#39;s any insight.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -499,7 +567,7 @@
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Simulink Model&lt;br /&gt;
-&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201214015247520.png&#34; alt=&#34;image-20201214015247520&#34; /&gt;&lt;/p&gt;
+&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201214015247520.png&#34; alt=&#34;image-20201214015247520&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Following is what&#39;s inside of the code block&lt;/p&gt;
@@ -508,7 +576,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Note that the CANWrite works with no problem like following.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201214020304346.png&#34; alt=&#34;image-20201214020304346&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201214020304346.png&#34; alt=&#34;image-20201214020304346&#34; /&gt;&lt;/p&gt;
  ]]></description>
         </item>
         <item>
@@ -566,7 +634,7 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id=&#34;main-controller-ui&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#main-controller-ui&#34;&gt;#&lt;/a&gt; Main Controller UI&lt;/h2&gt;
-&lt;p&gt;&amp;lt;img src=&amp;quot;C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20210208174357523.png&amp;quot; alt=&amp;quot;image-20210208174357523&amp;quot; style=&amp;quot;zoom:70%;&amp;quot; /&amp;gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;img src=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JpZmVpdGFuZy9ibG9nLWltZy1ob3N0aW5nLXlhbmcvbWFzdGVyL2FydGljbGVfaW1ncy9pbWFnZS0yMDIxMDIwODE3NDM1NzUyMy5wbmc=&#34;&gt;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20210208174357523.png&lt;/span&gt;&amp;quot; alt=&amp;quot;image-20210208174357523&amp;quot; style=&amp;quot;zoom:70%;&amp;quot; /&amp;gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Send command to main controller
 &lt;ul&gt;
@@ -622,7 +690,7 @@
 &lt;li&gt;
 &lt;p&gt;Confirmed the bit rate is 250kb/s&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210606214742664.png&#34; alt=&#34;image-20210606214742664&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20210606214742664.png&#34; alt=&#34;image-20210606214742664&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -653,9 +721,9 @@
             <link>https://bifeitang.github.io/2021/08/15/ExoSkeleton/HerculesCanBusCommunication_12-9-2020/</link>
             <pubDate>Sun, 15 Aug 2021 22:19:05 -0500</pubDate>
             <description><![CDATA[ &lt;p&gt;According to the instruction &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cudGkuY29tL2xpdC9hbi9zcG5hMjM3L3NwbmEyMzcucGRmP3RzPTE2MDc0OTcwODA2NzImYW1wO3JlZl91cmw9aHR0cHMlMjUzQSUyNTJGJTI1MkZ3d3cuZ29vZ2xlLmNvbSUyNTJG&#34;&gt;https://www.ti.com/lit/an/spna237/spna237.pdf?ts=1607497080672&amp;amp;ref_url=https%3A%2F%2Fwww.google.com%2F&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201209010536090.png&#34; alt=&#34;image-20201209010536090&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201209010625937.png&#34; alt=&#34;image-20201209010625937&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201209011013043.png&#34; alt=&#34;image-20201209011013043&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201209010536090.png&#34; alt=&#34;image-20201209010536090&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201209010625937.png&#34; alt=&#34;image-20201209010625937&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201209011013043.png&#34; alt=&#34;image-20201209011013043&#34; /&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -748,19 +816,19 @@ void canStatusChangeNotification(canBASE_t *node, uint32 notification)
 &lt;h4 id=&#34;cant-compile-exojoint&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#cant-compile-exojoint&#34;&gt;#&lt;/a&gt; Can&#39;t compile  &lt;code&gt;exoJoint&lt;/code&gt;&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Can&#39;t find  &lt;code&gt;sourceID&lt;/code&gt;  and  &lt;code&gt;targetID&lt;/code&gt; &lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210509183446878.png&#34; alt=&#34;image-20210509183446878&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Can&#39;t find  &lt;code&gt;sourceID&lt;/code&gt;  and  &lt;code&gt;targetID&lt;/code&gt; &lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20210509183446878.png&#34; alt=&#34;image-20210509183446878&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;​	&lt;strong&gt;Solution&lt;/strong&gt;
 &lt;ul&gt;
 &lt;li&gt;Added to  &lt;code&gt;ExoCAN&lt;/code&gt;  class&lt;br /&gt;
-&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210509183558145.png&#34; alt=&#34;image-20210509183558145&#34; /&gt;&lt;/li&gt;
+&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20210509183558145.png&#34; alt=&#34;image-20210509183558145&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Can&#39;t find  &lt;code&gt;encodeMsgID&lt;/code&gt; &lt;br /&gt;
-&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210509183756498.png&#34; alt=&#34;image-20210509183756498&#34; /&gt;&lt;/p&gt;
+&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20210509183756498.png&#34; alt=&#34;image-20210509183756498&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Solution: comment that line out&lt;/li&gt;
 &lt;/ul&gt;
@@ -782,19 +850,19 @@ void canStatusChangeNotification(canBASE_t *node, uint32 notification)
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Teensy&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CDesktop%5CAngleRecord.gif&#34; alt=&#34;AngleRecord&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/AngleRecord.gif&#34; alt=&#34;AngleRecord&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Try write to CAN bus with error, stops at waiting for CAN msg request&lt;br /&gt;
-&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210509234646787.png&#34; alt=&#34;image-20210509234646787&#34; /&gt;&lt;/p&gt;
+&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20210509234646787.png&#34; alt=&#34;image-20210509234646787&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Send angle information via CAN bus&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CDesktop%5CAngleCANRecorder.gif&#34; alt=&#34;AngleCANRecorder&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/AngleCANRecorder.gif&#34; alt=&#34;AngleCANRecorder&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Hercules basic test with value receiver&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CDesktop%5CAngleMainControllerCommunication.gif&#34; alt=&#34;AngleMainControllerCommunication&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/AngleMainControllerCommunication.gif&#34; alt=&#34;AngleMainControllerCommunication&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Uplink works: teensy -&amp;gt; main controller (Task)&lt;/p&gt;
@@ -815,9 +883,9 @@ void canStatusChangeNotification(canBASE_t *node, uint32 notification)
 &lt;li class=&#34;task-list-item&#34;&gt;
 &lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_0&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_0&#34;&gt; Why it doesn&#39;t work previously&lt;/label&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Only Digital Read and write through pin GIOB_4 and GIOB_6 is supported&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201205162257701.png&#34; alt=&#34;image-20201205162257701&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Only Digital Read and write through pin GIOB_4 and GIOB_6 is supported&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201205162257701.png&#34; alt=&#34;image-20201205162257701&#34; /&gt;&lt;/li&gt;
 &lt;li&gt;For CAN communication, it&#39;s not enough&lt;br /&gt;
-&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201205162523032.png&#34; alt=&#34;image-20201205162523032&#34; /&gt;&lt;/li&gt;
+&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201205162523032.png&#34; alt=&#34;image-20201205162523032&#34; /&gt;&lt;/li&gt;
 &lt;li&gt;&lt;mark&gt;Wonder how to generate similar block for CAN bus&lt;/mark&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -834,7 +902,7 @@ Builder using builder, specify the toolchain&lt;/p&gt;
 &lt;h3 id=&#34;pre-requisite&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#pre-requisite&#34;&gt;#&lt;/a&gt; Pre-Requisite&lt;/h3&gt;
 &lt;ul class=&#34;task-list&#34;&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_2&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_2&#34;&gt; Cortex-R4F MCUs&lt;br /&gt;
-&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201205150154490.png&#34; alt=&#34;image-20201205150154490&#34; /&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201205150154490.png&#34; alt=&#34;image-20201205150154490&#34; /&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;changes&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#changes&#34;&gt;#&lt;/a&gt; Changes&lt;/h2&gt;
 &lt;h3 id=&#34;builder&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#builder&#34;&gt;#&lt;/a&gt; Builder&lt;/h3&gt;
@@ -867,7 +935,7 @@ Builder using builder, specify the toolchain&lt;/p&gt;
 &lt;ul class=&#34;task-list&#34;&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;
 &lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_9&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_9&#34;&gt; Change  &lt;code&gt;tconf&lt;/code&gt; , make it point to new  &lt;code&gt;RM57L8xx.ccxml&lt;/code&gt; . This file can be got from Code Composer  &lt;code&gt;targetConfigs&lt;/code&gt; .&lt;br /&gt;
-&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201205232557405.png&#34; alt=&#34;image-20201205232557405&#34; /&gt;&lt;/label&gt;&lt;/p&gt;
+&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201205232557405.png&#34; alt=&#34;image-20201205232557405&#34; /&gt;&lt;/label&gt;&lt;/p&gt;
 &lt;p&gt;One can test the usability of this file by launch and try connect the the target.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -1148,8 +1216,8 @@ Binary file, stl, open command and run the bin file&lt;/label&gt;&lt;/li&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jb3BwZXJoaWxsdGVjaC5jb20vYmxvZy9jb250cm9sbGVyLWFyZWEtbmV0d29yay1jYW4tcHJvdG90eXBpbmctd2l0aC10ZWVuc3ktMzEzMi8=&#34;&gt;CAN Prototyping with Teensy 3.1/3.2&lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;In case of working with the CAN port, you will need a CAN transceiver in order to connect the board to a real CAN bus network. The best choice for adding a CAN transceiver, in terms of size and electrical compatibility, is the &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2NvcHBlcmhpbGx0ZWNoLmNvbS9jYW4tYnVzLW1pbmktYnJlYWtvdXQtYm9hcmQv&#34;&gt;CAN Bus Mini Breakout Board&lt;/span&gt; we offer through this website.&lt;/li&gt;
-&lt;li&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201114174628529.png&#34; alt=&#34;image-20201114174628529&#34; /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201114174729789.png&#34; alt=&#34;image-20201114174729789&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201114174628529.png&#34; alt=&#34;image-20201114174628529&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201114174729789.png&#34; alt=&#34;image-20201114174729789&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -1159,13 +1227,13 @@ Binary file, stl, open command and run the bin file&lt;/label&gt;&lt;/li&gt;
 &lt;p&gt;Able to read data from Teensy Can bus&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201114182837644.png&#34; alt=&#34;image-20201114182837644&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201114182837644.png&#34; alt=&#34;image-20201114182837644&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201114183009690.png&#34; alt=&#34;image-20201114183009690&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201114183009690.png&#34; alt=&#34;image-20201114183009690&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201114184659352.png&#34; alt=&#34;image-20201114184659352&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201114184659352.png&#34; alt=&#34;image-20201114184659352&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -1179,11 +1247,11 @@ Binary file, stl, open command and run the bin file&lt;/label&gt;&lt;/li&gt;
 &lt;p&gt;Install Code Composer Studio&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201115005749530.png&#34; alt=&#34;image-20201115005749530&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201115005749530.png&#34; alt=&#34;image-20201115005749530&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Configure DCAN_TX, DCAN_RX&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201115233805328.png&#34; alt=&#34;image-20201115233805328&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201115233805328.png&#34; alt=&#34;image-20201115233805328&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Follow the tutorial and write code&lt;/p&gt;
@@ -1194,14 +1262,14 @@ Binary file, stl, open command and run the bin file&lt;/label&gt;&lt;/li&gt;
 &lt;p&gt;Figure out the DCAN1 Pin&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cudGkuY29tL2xpdC9kZi9zcHJyMzk3L3NwcnIzOTcucGRmP3RzPTE2MDU0OTYyNzEwODc=&#34;&gt;https://www.ti.com/lit/df/sprr397/sprr397.pdf?ts=1605496271087&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201115234025988.png&#34; alt=&#34;image-20201115234025988&#34; /&gt;
+&lt;li&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201115234025988.png&#34; alt=&#34;image-20201115234025988&#34; /&gt;
 &lt;ul&gt;
 &lt;li&gt;I was thinking maybe the pin is multiplexed to here&lt;/li&gt;
 &lt;li&gt;But wasn&#39;t able to find corresponding CAN1&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;So looks like J10 44/45 are the pin I should use. And I have solder pin connecter to it.&lt;br /&gt;
-&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201115235233243.png&#34; alt=&#34;image-20201115235233243&#34; /&gt;&lt;/li&gt;
+&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201115235233243.png&#34; alt=&#34;image-20201115235233243&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -1213,13 +1281,13 @@ Binary file, stl, open command and run the bin file&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;figure class=&#34;highlight c&#34;&gt;&lt;figcaption data-lang=&#34;c&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/* USER CODE BEGIN (0) */&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;HL_can.h&#34;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;HL_system.h&#34;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/* USER CODE END */&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/* Include Files */&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;HL_sys_common.h&#34;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/* USER CODE BEGIN (1) */&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/* USER CODE END */&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/** @fn void main(void)&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;*   @brief Application main function&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;*   @note This function is empty by default.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;*&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;*   This function is called after startup.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;*   The user can use this function to implement the application.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;*/&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/* USER CODE BEGIN (2) */&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;define&lt;/span&gt; &lt;span class=&#34;token macro-name&#34;&gt;D_SIZE&lt;/span&gt; &lt;span class=&#34;token expression&#34;&gt;&lt;span class=&#34;token number&#34;&gt;12&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;uint8 tx_data&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;D_SIZE&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;E&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;X&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;O&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;\0&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;uint32 &lt;span class=&#34;token function&#34;&gt;checkPackets&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;uint8 &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;src_pkg&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; uint8 &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;dst_pkg&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; uint32 psize&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/* USER CODE END */&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;32&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/* USER CODE BEGIN (3) */&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;33&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;34&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token function&#34;&gt;canInit&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;35&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token function&#34;&gt;canTransmit&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;canREG1&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; canMESSAGE_BOX1&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; tx_data&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;36&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;37&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/* USER CODE END */&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;38&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;39&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;40&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;41&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;42&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;43&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/* USER CODE BEGIN (4) */&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;44&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;uint32 &lt;span class=&#34;token function&#34;&gt;checkPackages&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;uint8 &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;src_pkg&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; uint8 &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;dst_pkg&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; uint32 psize&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;45&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;46&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    uint32 err &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;47&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    uint32 cnt &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; psize&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;48&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;49&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;while&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;cnt&lt;span class=&#34;token operator&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;50&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;51&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;src_pkg&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;!=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;dst_pkg&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;52&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;53&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            err&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;54&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;55&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;56&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; err&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;57&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;58&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;59&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;60&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;canMessageNotification&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;canBASE_t&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;node&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; uint32 messageBox&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;61&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;62&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;63&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;64&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;65&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;canErrorNotification&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;canBASE_t&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;node&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; uint32 notification&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;66&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;67&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;68&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;69&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;70&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;canStatusChangeNotification&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;canBASE_t&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;node&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; uint32 notification&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;71&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;72&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;73&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;74&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/* USER CODE END */&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201120224019913.png&#34; alt=&#34;image-20201120224019913&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201120224019913.png&#34; alt=&#34;image-20201120224019913&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201120224129579.png&#34; alt=&#34;image-20201120224129579&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201120224129579.png&#34; alt=&#34;image-20201120224129579&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201120224157852.png&#34; alt=&#34;image-20201120224157852&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201120224157852.png&#34; alt=&#34;image-20201120224157852&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -1227,10 +1295,10 @@ Binary file, stl, open command and run the bin file&lt;/label&gt;&lt;/li&gt;
 &lt;p&gt;Set up CAN RX&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201120234019661.png&#34; alt=&#34;image-20201120234019661&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201120234019661.png&#34; alt=&#34;image-20201120234019661&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201120234038976.png&#34; alt=&#34;image-20201120234038976&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201120234038976.png&#34; alt=&#34;image-20201120234038976&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Code&lt;/p&gt;
@@ -1264,7 +1332,7 @@ Binary file, stl, open command and run the bin file&lt;/label&gt;&lt;/li&gt;
     return 0;
 &amp;#125;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201120234921668.png&#34; alt=&#34;image-20201120234921668&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201120234921668.png&#34; alt=&#34;image-20201120234921668&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Set up the test coverage and add a unit test badge&lt;/p&gt;
@@ -1281,7 +1349,7 @@ Binary file, stl, open command and run the bin file&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;CAN_Not_available&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201121111506761.png&#34; alt=&#34;image-20201121111506761&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201121111506761.png&#34; alt=&#34;image-20201121111506761&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;/li&gt;
@@ -1298,25 +1366,25 @@ Binary file, stl, open command and run the bin file&lt;/label&gt;&lt;/li&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Install Cortex-R adds-on&lt;br /&gt;
-&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201128150811124.png&#34; alt=&#34;image-20201128150811124&#34; /&gt;&lt;/p&gt;
+&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201128150811124.png&#34; alt=&#34;image-20201128150811124&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;The package toolchain may be outdated, the latest code composer version is v10, but only v5 and v6 are present.&lt;br /&gt;
-&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201128151129927.png&#34; alt=&#34;image-20201128151129927&#34; /&gt;&lt;/p&gt;
+&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201128151129927.png&#34; alt=&#34;image-20201128151129927&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Make sure the version matches&lt;br /&gt;
-&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201128151213973.png&#34; alt=&#34;image-20201128151213973&#34; /&gt;&lt;/p&gt;
+&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201128151213973.png&#34; alt=&#34;image-20201128151213973&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Looks like ccsv6 has different file structure comparing with ccsv10. So installed ccsv6.&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201128152234251.png&#34; alt=&#34;image-20201128152234251&#34; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201128152234251.png&#34; alt=&#34;image-20201128152234251&#34; /&gt;&lt;br /&gt;
 &lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201128161503273.png&#34; alt=&#34;image-20201128161503273&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;This works&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201128161532729.png&#34; alt=&#34;image-20201128161532729&#34; /&gt;&lt;br /&gt;
-&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201128161816355.png&#34; alt=&#34;image-20201128161816355&#34; /&gt;&lt;br /&gt;
+&lt;p&gt;This works&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201128161532729.png&#34; alt=&#34;image-20201128161532729&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201128161816355.png&#34; alt=&#34;image-20201128161816355&#34; /&gt;&lt;br /&gt;
 &lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201128161825513.png&#34; alt=&#34;image-20201128161825513&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201128161857315.png&#34; alt=&#34;image-20201128161857315&#34; /&gt;&lt;br /&gt;
-&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201128161914373.png&#34; alt=&#34;image-20201128161914373&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201128161857315.png&#34; alt=&#34;image-20201128161857315&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201128161914373.png&#34; alt=&#34;image-20201128161914373&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -1325,18 +1393,18 @@ Binary file, stl, open command and run the bin file&lt;/label&gt;&lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;Remember to switch the directory&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&amp;lt;img src=&amp;quot;C:\Users\kydn8\AppData\Roaming\Typora\typora-user-images\image-20201128174747736.png&amp;quot; alt=&amp;quot;image-20201128174747736&amp;quot; style=&amp;quot;zoom:100%;&amp;quot; /&amp;gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;img src=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JpZmVpdGFuZy9ibG9nLWltZy1ob3N0aW5nLXlhbmcvbWFzdGVyL2FydGljbGVfaW1ncy9pbWFnZS0yMDIwMTEyODE3NDc0NzczNi5wbmc=&#34;&gt;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201128174747736.png&lt;/span&gt;&amp;quot; alt=&amp;quot;image-20201128174747736&amp;quot; style=&amp;quot;zoom:100%;&amp;quot; /&amp;gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Change the directory from &lt;em&gt;&lt;strong&gt;C:\Program Files\Polyspace\R2020a\bin&lt;/strong&gt;&lt;/em&gt; to your own drive&lt;br /&gt;
-&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201128175033477.png&#34; alt=&#34;image-20201128175033477&#34; /&gt;&lt;/p&gt;
+&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201128175033477.png&#34; alt=&#34;image-20201128175033477&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Second bug is I used  &lt;code&gt;&amp;amp;&lt;/code&gt;  in my folder name which confused the compiler.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Eventually I am able to deploy and build&lt;br /&gt;
-&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201128183655265.png&#34; alt=&#34;image-20201128183655265&#34; /&gt;&lt;/p&gt;
+&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201128183655265.png&#34; alt=&#34;image-20201128183655265&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;But there&#39;s no command window pop up as stated in the example&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;After the model launches on the hardware, a command window opens and shows that the executable is running on in the TI Hercules RM57Lx LaunchPad Development Kit. To stop the model running on the TI Hercules RM57Lx LaunchPad Development Kit, close the command window.&lt;/p&gt;
@@ -1348,7 +1416,7 @@ Binary file, stl, open command and run the bin file&lt;/label&gt;&lt;/li&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Can&#39;t connect to hardware board&lt;/strong&gt;&lt;br /&gt;
-&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201129140320119.png&#34; alt=&#34;image-20201129140320119&#34; /&gt;
+&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20201129140320119.png&#34; alt=&#34;image-20201129140320119&#34; /&gt;
 &lt;ul&gt;
 &lt;li&gt;Followed the question here &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubWF0aHdvcmtzLmNvbS9tYXRsYWJjZW50cmFsL2Fuc3dlcnMvNjIyMzczLWVtYmVkZGVkLWNvZGVyLWZvci1hcm0tY29ydGV4LXItcHJvY2Vzc29ycy1oZXJjdWxlcy10bXM1NzBsYzQzeA==&#34;&gt;https://www.mathworks.com/matlabcentral/answers/622373-embedded-coder-for-arm-cortex-r-processors-hercules-tms570lc43x&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1429,13 +1497,13 @@ Binary file, stl, open command and run the bin file&lt;/label&gt;&lt;/li&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Screenshot&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210723010627617.png&#34; alt=&#34;image-20210723010627617&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/image-20210723010627617.png&#34; alt=&#34;image-20210723010627617&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Please find gif from attachment&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Ckydn8%5CDesktop%5CHerculesHearBeatResponseSingleNode.gif&#34; alt=&#34;HerculesHearBeatResponseSingleNode&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/bifeitang/blog-img-hosting-yang/master/article_imgs/HerculesHearBeatResponseSingleNode.gif&#34; alt=&#34;HerculesHearBeatResponseSingleNode&#34; /&gt;&lt;/p&gt;
  ]]></description>
         </item>
         <item>
@@ -1531,11 +1599,24 @@ Binary file, stl, open command and run the bin file&lt;/label&gt;&lt;/li&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://bifeitang.github.io/2021/08/15/ExoSkeleton/Untitled/</guid>
-            <title></title>
-            <link>https://bifeitang.github.io/2021/08/15/ExoSkeleton/Untitled/</link>
-            <pubDate>Sun, 15 Aug 2021 22:19:05 -0500</pubDate>
-            <description><![CDATA[  ]]></description>
+            <guid isPermalink="true">https://bifeitang.github.io/2021/08/15/hello-world/</guid>
+            <title>Hello World</title>
+            <link>https://bifeitang.github.io/2021/08/15/hello-world/</link>
+            <pubDate>Sun, 15 Aug 2021 10:34:39 -0500</pubDate>
+            <description><![CDATA[ &lt;p&gt;Welcome to &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&#34;https://hexo.io/docs/&#34;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&#34;https://hexo.io/docs/troubleshooting.html&#34;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&#34;https://github.com/hexojs/hexo/issues&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;Quick-Start&#34;&gt;&lt;a href=&#34;#Quick-Start&#34; class=&#34;headerlink&#34; title=&#34;Quick Start&#34;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&#34;Create-a-new-post&#34;&gt;&lt;a href=&#34;#Create-a-new-post&#34; class=&#34;headerlink&#34; title=&#34;Create a new post&#34;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo new &lt;span class=&#34;string&#34;&gt;&amp;quot;My New Post&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/writing.html&#34;&gt;Writing&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;Run-server&#34;&gt;&lt;a href=&#34;#Run-server&#34; class=&#34;headerlink&#34; title=&#34;Run server&#34;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/server.html&#34;&gt;Server&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;Generate-static-files&#34;&gt;&lt;a href=&#34;#Generate-static-files&#34; class=&#34;headerlink&#34; title=&#34;Generate static files&#34;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/generating.html&#34;&gt;Generating&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;Deploy-to-remote-sites&#34;&gt;&lt;a href=&#34;#Deploy-to-remote-sites&#34; class=&#34;headerlink&#34; title=&#34;Deploy to remote sites&#34;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/deployment.html&#34;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+ ]]></description>
         </item>
     </channel>
 </rss>
