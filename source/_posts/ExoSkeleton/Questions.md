@@ -1,5 +1,5 @@
 ---
-title: Migration Note 10_21_2020 (Questions To Ask)
+title: On board Q&A with Luu to get Simulink work together with Hercules
 date: 2020-10-21 02:37:30
 tags: Exo Skeleton, FreeRTOS
 categories:

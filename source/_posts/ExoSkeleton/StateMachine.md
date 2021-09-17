@@ -1,12 +1,12 @@
 ---
-title: Migration Note 01_27_2021
+title: FreeRTOS State Machine Task
 date: 2021-01-27 19:28:30
 tags: Exo Skeleton, FreeRTOS
 categories:
 - [Exo Skeleton]
 ---
 
-## FreeRTOS Main Controller 
+## FreeRTOS State Machine Task
 
 ### Design Principles
 

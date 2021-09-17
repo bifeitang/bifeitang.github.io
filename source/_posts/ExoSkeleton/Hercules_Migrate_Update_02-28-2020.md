@@ -1,5 +1,5 @@
 ---
-title: Migration Note 01_17_2021
+title: Explore Event Driven Programming for State Machine
 date: 2021-02-28 02:37:30
 tags: Exo Skeleton, FreeRTOS
 categories:

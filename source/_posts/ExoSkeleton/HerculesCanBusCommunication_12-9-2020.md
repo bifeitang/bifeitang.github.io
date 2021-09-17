@@ -1,5 +1,5 @@
 ---
-title: Migration Note 12_09_2020
+title: HalCoGen FreeRTOS Configuration and CAN Code
 date: 2020-12-09 02:37:30
 tags: Exo Skeleton, FreeRTOS
 categories:

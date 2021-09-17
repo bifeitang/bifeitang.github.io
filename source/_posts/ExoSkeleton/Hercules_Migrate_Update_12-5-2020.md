@@ -1,5 +1,5 @@
 ---
-title: Migration Note 12_05_2020
+title: Try get Hercules work with Simulink Continue
 date: 2021-01-17 02:37:30
 tags: Exo Skeleton, FreeRTOS
 categories:

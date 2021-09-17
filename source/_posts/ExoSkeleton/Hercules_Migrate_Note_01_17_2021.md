@@ -1,5 +1,5 @@
 ---
-title: Migration Note 01_17_2021
+title: Debugging FreeRTOS tasks running in parallel issue
 date: 2021-01-17 02:37:30
 tags: Exo Skeleton, FreeRTOS
 categories:

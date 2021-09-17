@@ -1,5 +1,5 @@
 ---
-title: Migration Note 11_15_2020
+title: Enviornment Setup & use MATLAB Slimulink work with Hercules
 date: 2020-11-15 02:37:30
 tags: Exo Skeleton, FreeRTOS
 categories:

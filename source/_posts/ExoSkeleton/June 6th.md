@@ -1,5 +1,5 @@
 ---
-title: Migration Note 06_06_2021
+title: Troubleshoot joint can't communicate with Hercules
 date: 2021-06-06 02:37:30
 tags: Exo Skeleton, FreeRTOS
 categories:

@@ -1,5 +1,5 @@
 ---
-title: Migration Note 03_13_2021
+title: Learn to create FreeRTOS tasks
 date: 2021-03-13 02:37:30
 tags: Exo Skeleton, FreeRTOS
 categories:
@@ -39,10 +39,6 @@ vTaskDelayUntil( &xNextWakeTime, mainQUEUE_SEND_FREQUENCY_MS );
 
 #### FreeRTOS Task Name
 
-1
-
-
-
 I'm a newbie of FreeRTOS. But I don't think it's well documented. As in [xTaskCreate()](https://www.freertos.org/a00125.html) :
 
 > `pcName` A descriptive name for the task. This is mainly used to facilitate debugging, but can also be used to obtain a task handle. The maximum length of a task’s name is set using the `configMAX_TASK_NAME_LEN` parameter in `FreeRTOSConfig.h`.
@@ -68,5 +64,4 @@ To Do
   - [ ] Command we send are usually in sequence, FIFO
 - [ ] Read emergency, we can start a highest priority task, to handle all the emergency 
 - [ ] Put all the priority define into one dedicated file
-- [ ]  
 

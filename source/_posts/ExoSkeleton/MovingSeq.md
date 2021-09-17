@@ -1,6 +1,6 @@
 ---
-title: Moving Sequence
-date: 2021-01-17 02:37:30
+title: Trajectory Planning Code Reading
+date: 2021-09-03 02:37:30
 tags: Exo Skeleton, FreeRTOS
 mermaid: true
 categories:

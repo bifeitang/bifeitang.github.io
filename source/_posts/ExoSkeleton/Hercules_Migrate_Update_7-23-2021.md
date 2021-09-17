@@ -1,5 +1,5 @@
 ---
-title: Migration Note 07_23_2021
+title: Heartbeat from Hercules (Main Controller) to Teensy (Joint)
 date: 2021-01-17 02:37:30
 tags: Exo Skeleton, FreeRTOS
 categories:

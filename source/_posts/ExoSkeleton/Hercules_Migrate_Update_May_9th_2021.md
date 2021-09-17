@@ -1,5 +1,5 @@
 ---
-title: Migration Note 05_09_2021
+title: Get main controller reads joint angle raw value
 date: 2021-05-09 02:37:30
 tags: Exo Skeleton, FreeRTOS
 categories:
