@@ -6,8 +6,6 @@ categories:
 - [Reinforcement Learning]
 ---
 
-Add another line
-
 ## Report
 {% pdf ./RL_final_report.pdf %}
 

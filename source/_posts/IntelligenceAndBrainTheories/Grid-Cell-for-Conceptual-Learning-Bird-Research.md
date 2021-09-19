@@ -1,12 +1,16 @@
 ---
 title: Grid Cell for Conceptual Learning Bird Research
 date: 2021-09-19 10:40:42
-tags:
+math: true
+mermaid: true
+tags: [Grid Cell, Conceptual Learning, Memory, fMRI]
+categories:
+- [Intelligence and Brain Theories]
 ---
 
 ## Grid Cell for Conceptual Learning
 
-- With great imagination, Constantinescu et al. (2016) proposed that the neuocortex may not only encode physical space, but also conceptual. 
+- With great imagination,  [Constantinescu et al. (2016)](https://www.science.org/doi/abs/10.1126/science.aaf0941) proposed that the neuocortex may not only encode physical space, but also conceptual. 
 
 - The experiement 
 
