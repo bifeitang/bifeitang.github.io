@@ -6,13 +6,13 @@ cover: https://quotefancy.com/media/wallpaper/3840x2160/23432-Zig-Ziglar-Quote-Y
 tags: 
 ---
 
-It's 2 am now, but I am staying up late again. This time, it's about a book I am reading before going to bed.
+It's 2 am now, and I am staying up late again. I am trying to finish reading a book (*The self as Method: In Conversation with Biao Xiang*) from [Biao Xiang](https://www.compas.ox.ac.uk/people/biao-xiang/). 
 
-Quote "Don't be afraid of the edge, or not enough knowledge, put your own not enough, naive true embodiment, it will be lovely, don't pretend. The same goes for the application topic. It must be peculiar. If I can see that you have genuine feelings about the topic, I will be more able to understand why you want to do this topic, will have confidence in you, and trust you to do it."
+I am urged by his words -- "Don't be afraid to be on the edge or not having enough knowledge. Keep your inadequacies and naivety in plain sight, it will be lovely. Don't pretend. The same applies to your research topic application, which must be peculiar. If I can see that you have genuine feelings about the topic, I more convinced by why you want to do it. It makes me having confidence in you, and trusting you to finish your research no matter what."
 
-I have been long anxious about not being fully prepared for my Ph.D. application. Even I started one year ago.
+These words struck my fears like a sermon. I have been anxious for a long time that I am not good enough to apply for PhD.
 
-I never seriously consider having a Ph.D. until I start working. It teaches me two working styles. A group of my colleagues are passionate and keep coming up with new methods, following the state of art technologies by reading many papers and reaching out to the most knowledgeable people in the field. They even actively push the management to allow them more resources for innovation. Another group focuses on getting the job done elegantly and efficiently with clear-defined requirements and starting their chill time in style.
+I never consider seriously having a Ph.D. until I start working. My colleagues teach me two working styles. One group of my coworkers are passionate about their work and keep coming up with new methods. They follow the state of art technologies by reading many papers and reaching out to the most knowledgeable people in the field. They even actively push the management to allow them more resources for innovation. While the other group focuses on getting the job done elegantly and efficiently with clear-defined requirements and starting their chill time in style.
 
 Top performers in each group shine in their way.  However, I am deeply attracted to the first type, which emphasizes more on the work itself. In other words, I hope I love the job itself more than the meaning of the job because the purpose of the job changes over time, but if the job itself keeps revealing the fancy of the world, it will be a whole different story.
 
