@@ -338,35 +338,6 @@ M1001 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://bifeitang.github.io/2021/09/09/EEG/Ideas%20on%20robots/</guid>
-            <title></title>
-            <link>https://bifeitang.github.io/2021/09/09/EEG/Ideas%20on%20robots/</link>
-            <pubDate>Thu, 09 Sep 2021 01:24:54 -0500</pubDate>
-            <description><![CDATA[ &lt;p&gt;Brain controlled robot learning&lt;/p&gt;
-&lt;p&gt;本来在跟朋友聊家政的事情。中国未来人口老龄化严重，需要大量的生产力去照顾这些人，所以需要一定数量的家政机器人。但是现在的机器人基本上只能做非常 basic 的事情，最好的 Boston Dynamics 的狗造价很贵，而且职能也许没那么明确。如何能把人类的想法移植给机器人呢？有没有什么 generic BCI interface？&lt;/p&gt;
-&lt;p&gt;能考虑到的有 motion imaginary BCI，我们大脑里面想如何让这个机器人动起来，比如先给机器人 3D 扫描一下，然后人在一边思考这个机器人动起来的样子，然后让机器人真的按照这种方式动起来，就像 sci fi 里面的脑控机器人一样。这样机器人也许不需要那么多的训练&lt;/p&gt;
-&lt;p&gt;当然，要考虑到我们人脑大概率会省略很多的中间过程&lt;/p&gt;
-&lt;p&gt;好处当然是可以实现这些机器人的个性化需求，不需要大量的 training&lt;/p&gt;
-&lt;p&gt;如果人和机器人用同样的神经网络，也就是 cerebral cortex 的话，说不定是可以直接 translate 和移植的，就像我示范一遍，另外一个人就可以有样学样&lt;/p&gt;
-&lt;p&gt;但是机器人领域里面很多人在研究了，包括用实际的 data 去训练&lt;/p&gt;
-&lt;p&gt;How coarse it will become in order to get it work&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9lbmdpbmVlcmluZy5jbXUuZWR1L25ld3MtZXZlbnRzL25ld3MvMjAxOS8wNi8yMC1oZS1zY2ktcm9ib3RpY3MuaHRtbA==&#34;&gt;https://engineering.cmu.edu/news-events/news/2019/06/20-he-sci-robotics.html&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuY3NhaWwubWl0LmVkdS9yZXNlYXJjaC9icmFpbi1jb250cm9sbGVkLXJvYm90cw==&#34;&gt;https://www.csail.mit.edu/research/brain-controlled-robots&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Controlling of virtual avatar to actual robot, is it possible? Then map it to actual robot&lt;/p&gt;
-&lt;p&gt;Then robot learn from it and repeat or adjust their behavior accordingly to a point they don&#39;t need assist from human anymore&lt;/p&gt;
-&lt;p&gt;Make it a standard&lt;/p&gt;
-&lt;p&gt;Difficulties, robots had their own way of study, can they understand human intention?&lt;/p&gt;
-&lt;p&gt;Next steps&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Why it&#39;s so hard to get a clear EEG signal for controlling of robotic arm? How to improve it?&lt;/li&gt;
-&lt;li&gt;Is it possible to control the moving of virtual avatar?&lt;/li&gt;
-&lt;li&gt;Is it possible to map the moving of virtual avatar to actual robot?&lt;/li&gt;
-&lt;li&gt;Can this be a standard or generic interface to get it work with any type of robot?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;比如教机械手臂洗盘子，先用 3D 建模出通用的两个机械臂加机械手（也可以在 VR 里面模拟），然后让大脑想象打开水龙头，一直手抓盘子，另外一只手洗的动作，让 3D 中的机械臂动起来，然后把 3D 中的点的运动转化成关节的动作，比如一个时间序列，每个时间点上是每个关节运动的角度，接着把这一系列角度传给机器，告诉它这是一次成功的洗盘子。之后可以多次模拟训练，提供数据集，用 reinforcement learning 把这个洗盘子的动作教会给机械臂。&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
             <guid isPermalink="true">https://bifeitang.github.io/2021/09/06/EEG/EEGBasics/</guid>
             <title>EEG Data Preprocessing</title>
             <link>https://bifeitang.github.io/2021/09/06/EEG/EEGBasics/</link>
@@ -1672,6 +1643,23 @@ void canStatusChangeNotification(canBASE_t *node, uint32 notification)
 &lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_4&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_4&#34;&gt; nikunj bhagat&lt;/label&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://bifeitang.github.io/2020/10/25/hello-world/</guid>
+            <title>Hello World</title>
+            <link>https://bifeitang.github.io/2020/10/25/hello-world/</link>
+            <pubDate>Sun, 25 Oct 2020 02:37:30 -0500</pubDate>
+            <description><![CDATA[ &lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
+&lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo new &lt;span class=&#34;token string&#34;&gt;&#34;My New Post&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s&#34;&gt;Writing&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;run-server&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#run-server&#34;&gt;#&lt;/a&gt; Run server&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo server&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=&#34;&gt;Server&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;generate-static-files&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#generate-static-files&#34;&gt;#&lt;/a&gt; Generate static files&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo generate&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s&#34;&gt;Generating&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo deploy&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZGVwbG95bWVudC5odG1s&#34;&gt;Deployment&lt;/span&gt;&lt;/p&gt;
  ]]></description>
         </item>
     </channel>

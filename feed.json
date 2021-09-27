@@ -21,14 +21,6 @@
             ]
         },
         {
-            "id": "https://bifeitang.github.io/2021/09/09/EEG/Ideas%20on%20robots/",
-            "url": "https://bifeitang.github.io/2021/09/09/EEG/Ideas%20on%20robots/",
-            "title": "",
-            "date_published": "2021-09-09T06:24:54.884Z",
-            "content_html": "<p>Brain controlled robot learning</p>\n<p>本来在跟朋友聊家政的事情。中国未来人口老龄化严重，需要大量的生产力去照顾这些人，所以需要一定数量的家政机器人。但是现在的机器人基本上只能做非常 basic 的事情，最好的 Boston Dynamics 的狗造价很贵，而且职能也许没那么明确。如何能把人类的想法移植给机器人呢？有没有什么 generic BCI interface？</p>\n<p>能考虑到的有 motion imaginary BCI，我们大脑里面想如何让这个机器人动起来，比如先给机器人 3D 扫描一下，然后人在一边思考这个机器人动起来的样子，然后让机器人真的按照这种方式动起来，就像 sci fi 里面的脑控机器人一样。这样机器人也许不需要那么多的训练</p>\n<p>当然，要考虑到我们人脑大概率会省略很多的中间过程</p>\n<p>好处当然是可以实现这些机器人的个性化需求，不需要大量的 training</p>\n<p>如果人和机器人用同样的神经网络，也就是 cerebral cortex 的话，说不定是可以直接 translate 和移植的，就像我示范一遍，另外一个人就可以有样学样</p>\n<p>但是机器人领域里面很多人在研究了，包括用实际的 data 去训练</p>\n<p>How coarse it will become in order to get it work</p>\n<p><span class=\"exturl\" data-url=\"aHR0cHM6Ly9lbmdpbmVlcmluZy5jbXUuZWR1L25ld3MtZXZlbnRzL25ld3MvMjAxOS8wNi8yMC1oZS1zY2ktcm9ib3RpY3MuaHRtbA==\">https://engineering.cmu.edu/news-events/news/2019/06/20-he-sci-robotics.html</span></p>\n<p><span class=\"exturl\" data-url=\"aHR0cHM6Ly93d3cuY3NhaWwubWl0LmVkdS9yZXNlYXJjaC9icmFpbi1jb250cm9sbGVkLXJvYm90cw==\">https://www.csail.mit.edu/research/brain-controlled-robots</span></p>\n<p>Controlling of virtual avatar to actual robot, is it possible? Then map it to actual robot</p>\n<p>Then robot learn from it and repeat or adjust their behavior accordingly to a point they don't need assist from human anymore</p>\n<p>Make it a standard</p>\n<p>Difficulties, robots had their own way of study, can they understand human intention?</p>\n<p>Next steps</p>\n<ul>\n<li>Why it's so hard to get a clear EEG signal for controlling of robotic arm? How to improve it?</li>\n<li>Is it possible to control the moving of virtual avatar?</li>\n<li>Is it possible to map the moving of virtual avatar to actual robot?</li>\n<li>Can this be a standard or generic interface to get it work with any type of robot?</li>\n</ul>\n<p>比如教机械手臂洗盘子，先用 3D 建模出通用的两个机械臂加机械手（也可以在 VR 里面模拟），然后让大脑想象打开水龙头，一直手抓盘子，另外一只手洗的动作，让 3D 中的机械臂动起来，然后把 3D 中的点的运动转化成关节的动作，比如一个时间序列，每个时间点上是每个关节运动的角度，接着把这一系列角度传给机器，告诉它这是一次成功的洗盘子。之后可以多次模拟训练，提供数据集，用 reinforcement learning 把这个洗盘子的动作教会给机械臂。</p>\n",
-            "tags": []
-        },
-        {
             "id": "https://bifeitang.github.io/2021/09/06/EEG/EEGBasics/",
             "url": "https://bifeitang.github.io/2021/09/06/EEG/EEGBasics/",
             "title": "EEG Data Preprocessing",
@@ -223,6 +215,14 @@
                 "Exo Skeleton",
                 "Exo Skeleton, FreeRTOS"
             ]
+        },
+        {
+            "id": "https://bifeitang.github.io/2020/10/25/hello-world/",
+            "url": "https://bifeitang.github.io/2020/10/25/hello-world/",
+            "title": "Hello World",
+            "date_published": "2020-10-25T07:37:30.000Z",
+            "content_html": "<p>Welcome to <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvLw==\">Hexo</span>! This is your very first post. Check <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv\">documentation</span> for more info. If you get any problems when using Hexo, you can find the answer in <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=\">troubleshooting</span> or you can ask me on <span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==\">GitHub</span>.</p>\n<h2 id=\"quick-start\"><a class=\"anchor\" href=\"#quick-start\">#</a> Quick Start</h2>\n<h3 id=\"create-a-new-post\"><a class=\"anchor\" href=\"#create-a-new-post\">#</a> Create a new post</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo new <span class=\"token string\">\"My New Post\"</span></pre></td></tr></table></figure><p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s\">Writing</span></p>\n<h3 id=\"run-server\"><a class=\"anchor\" href=\"#run-server\">#</a> Run server</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo server</pre></td></tr></table></figure><p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=\">Server</span></p>\n<h3 id=\"generate-static-files\"><a class=\"anchor\" href=\"#generate-static-files\">#</a> Generate static files</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo generate</pre></td></tr></table></figure><p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s\">Generating</span></p>\n<h3 id=\"deploy-to-remote-sites\"><a class=\"anchor\" href=\"#deploy-to-remote-sites\">#</a> Deploy to remote sites</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo deploy</pre></td></tr></table></figure><p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZGVwbG95bWVudC5odG1s\">Deployment</span></p>\n",
+            "tags": []
         }
     ]
 }
